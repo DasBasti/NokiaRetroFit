@@ -1,4 +1,4 @@
-update=Di 18 Okt 2016 15:37:05 CEST
+update=So 23 Okt 2016 23:43:48 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=std.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -73,3 +63,15 @@ LibName31=lib/ft232rl
 LibName32=lib/max1555
 LibName33=lib/tps61045
 LibName34=lib/tps62172
+LibName35=lib/mma8451q
+LibName36=lib/STM32F439NIH6
+[schematic_editor]
+version=1
+PageLayoutDescrFile=std.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

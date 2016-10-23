@@ -33,14 +33,16 @@ LIBS:ft232rl
 LIBS:max1555
 LIBS:tps61045
 LIBS:tps62172
+LIBS:mma8451q
+LIBS:STM32F439NIH6
 LIBS:3310retro-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
-Title "Nokia 3210 Retrofit"
-Date "2016-10-18"
+Sheet 6 9
+Title "Nokia 3310 Retrofit"
+Date "2016-10-23"
 Rev "1"
 Comp ""
 Comment1 ""
