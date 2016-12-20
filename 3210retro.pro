@@ -1,4 +1,4 @@
-update=Sa 17 Dez 2016 14:03:12 CET
+update=20.12.2016 14:07:47
 version=1
 last_client=kicad
 [pcbnew]
@@ -80,3 +80,6 @@ LibName38=lib/S29GL128S
 LibName39=lib/IS42S16400J
 LibName40=lib/micro_sd
 LibName41=lib/h144tc215a
+LibName42=lib/WL1807MODGIMOCT
+LibName43=lib/tp
+LibName44=lib/w3006

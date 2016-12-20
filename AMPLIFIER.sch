@@ -40,14 +40,17 @@ LIBS:S29GL128S
 LIBS:IS42S16400J
 LIBS:micro_sd
 LIBS:h144tc215a
-LIBS:3310retro-cache
+LIBS:WL1807MODGIMOCT
+LIBS:tp
+LIBS:w3006
+LIBS:3210retro-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
-Title "Nokia 3310 Retrofit"
-Date "2016-12-08"
+Title "Nokia 3210 Retrofit"
+Date "2016-12-20"
 Rev "1"
 Comp "www.kurzschluss-blog.de"
 Comment1 ""
