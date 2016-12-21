@@ -1756,4 +1756,8 @@ F 3 "" H 6500 4900 60  0000 C CNN
 	1    6500 4900
 	1    0    0    -1  
 $EndComp
+Text Notes 6750 2200 0    60   ~ 0
+TPS61046
+Text Notes 2300 3000 0    60   ~ 0
+10uF 0603
 $EndSCHEMATC

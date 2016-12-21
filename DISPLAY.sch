@@ -716,4 +716,6 @@ F 3 "" H 2750 2850 60  0000 C CNN
 	1    2750 2850
 	1    0    0    -1  
 $EndComp
+Text Notes 2600 6450 0    60   ~ 0
+ev.R
 $EndSCHEMATC
