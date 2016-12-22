@@ -43,14 +43,15 @@ LIBS:h144tc215a
 LIBS:WL1807MODGIMOCT
 LIBS:tp
 LIBS:w3006
+LIBS:tps61046
 LIBS:3210retro-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 7 9
 Title "Nokia 3210 Retrofit"
-Date "2016-12-20"
+Date "2016-12-22"
 Rev "1"
 Comp "www.kurzschluss-blog.de"
 Comment1 ""
@@ -234,22 +235,6 @@ F 3 "" H 4250 4800 50  0000 C CNN
 	1    4250 4800
 	1    0    0    -1  
 $EndComp
-Text HLabel 2450 2450 1    60   Input ~ 0
-COL_1
-Text HLabel 3000 2450 1    60   Input ~ 0
-COL_2
-Text HLabel 3550 2450 1    60   Input ~ 0
-COL_3
-Text HLabel 4750 3150 2    60   Output ~ 0
-ROW_1
-Text HLabel 4750 4350 2    60   Output ~ 0
-ROW_3
-Text HLabel 4750 4950 2    60   Output ~ 0
-ROW_4
-Text HLabel 4750 3750 2    60   Output ~ 0
-ROW_2
-Text HLabel 4100 2450 1    60   Input ~ 0
-COL_4
 $Comp
 L GND #PWR502
 U 1 1 5807C50C
@@ -314,7 +299,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 3100 3300 3150
 Wire Wire Line
-	2750 3150 4750 3150
+	2750 3150 5000 3150
 Wire Wire Line
 	3850 3150 3800 3100
 Connection ~ 3300 3150
@@ -323,7 +308,7 @@ Wire Wire Line
 Connection ~ 3850 3150
 Connection ~ 4400 3150
 Wire Wire Line
-	2750 3750 4750 3750
+	2750 3750 5000 3750
 Wire Wire Line
 	4400 3750 4350 3700
 Wire Wire Line
@@ -338,23 +323,23 @@ Connection ~ 3300 3750
 Wire Wire Line
 	4100 3450 4150 3500
 Wire Wire Line
-	4100 2450 4100 4650
+	4100 2350 4100 4650
 Wire Wire Line
 	4100 2850 4150 2900
 Wire Wire Line
 	3550 3450 3600 3500
 Wire Wire Line
-	3550 2450 3550 4650
+	3550 2350 3550 4650
 Wire Wire Line
 	3550 2850 3600 2900
 Wire Wire Line
 	3000 3450 3050 3500
 Wire Wire Line
-	3000 2450 3000 4650
+	3000 2350 3000 4650
 Wire Wire Line
 	2450 3450 2500 3500
 Wire Wire Line
-	2450 2450 2450 4650
+	2450 2350 2450 4650
 Connection ~ 2450 2850
 Connection ~ 3000 2850
 Connection ~ 3550 2850
@@ -368,7 +353,7 @@ Connection ~ 2450 4050
 Wire Wire Line
 	2700 4300 2750 4350
 Wire Wire Line
-	2750 4350 4750 4350
+	2750 4350 5000 4350
 Wire Wire Line
 	3300 4350 3250 4300
 Wire Wire Line
@@ -390,7 +375,7 @@ Connection ~ 3000 3450
 Wire Wire Line
 	2700 4900 2750 4950
 Wire Wire Line
-	2750 4950 4750 4950
+	2750 4950 5000 4950
 Wire Wire Line
 	3300 4950 3250 4900
 Wire Wire Line
@@ -553,8 +538,6 @@ Wire Wire Line
 	9250 2800 9250 3000
 Wire Wire Line
 	9800 2800 9800 3000
-Wire Wire Line
-	7050 3400 7050 4100
 $Comp
 L +3V3 #PWR503
 U 1 1 580805E8
@@ -585,28 +568,16 @@ Connection ~ 8700 2400
 Wire Wire Line
 	9800 2400 9800 2500
 Connection ~ 9250 2400
-Text HLabel 7050 4100 3    60   Input ~ 0
-LED_1
-Text HLabel 7600 4100 3    60   Input ~ 0
-LED_2
 Wire Wire Line
-	7600 3400 7600 4100
-Text HLabel 8150 4100 3    60   Input ~ 0
-LED_3
+	7600 3400 7600 4700
 Wire Wire Line
-	8150 3400 8150 4100
-Text HLabel 8700 4100 3    60   Input ~ 0
-LED_4
+	8150 3400 8150 4700
 Wire Wire Line
-	8700 3400 8700 4100
-Text HLabel 9250 4100 3    60   Input ~ 0
-LED_5
+	8700 3400 8700 4700
 Wire Wire Line
-	9250 3400 9250 4100
-Text HLabel 9800 4100 3    60   Input ~ 0
-LED_6
+	9250 3400 9250 4700
 Wire Wire Line
-	9800 3400 9800 4100
+	9800 3400 9800 4700
 $Comp
 L TP TP?
 U 1 1 585B661A
@@ -676,45 +647,45 @@ $EndComp
 $Comp
 L TP TP?
 U 1 1 585B7582
-P 2450 2650
-F 0 "TP?" H 2450 2690 20  0000 C CNN
-F 1 "TP" H 2450 2600 60  0001 C CNN
-F 2 "" H 2450 2650 60  0000 C CNN
-F 3 "" H 2450 2650 60  0000 C CNN
-	1    2450 2650
+P 2450 2750
+F 0 "TP?" H 2450 2790 20  0000 C CNN
+F 1 "TP" H 2450 2700 60  0001 C CNN
+F 2 "" H 2450 2750 60  0000 C CNN
+F 3 "" H 2450 2750 60  0000 C CNN
+	1    2450 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L TP TP?
 U 1 1 585B75E1
-P 3000 2650
-F 0 "TP?" H 3000 2690 20  0000 C CNN
-F 1 "TP" H 3000 2600 60  0001 C CNN
-F 2 "" H 3000 2650 60  0000 C CNN
-F 3 "" H 3000 2650 60  0000 C CNN
-	1    3000 2650
+P 3000 2750
+F 0 "TP?" H 3000 2790 20  0000 C CNN
+F 1 "TP" H 3000 2700 60  0001 C CNN
+F 2 "" H 3000 2750 60  0000 C CNN
+F 3 "" H 3000 2750 60  0000 C CNN
+	1    3000 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L TP TP?
 U 1 1 585B7642
-P 3550 2650
-F 0 "TP?" H 3550 2690 20  0000 C CNN
-F 1 "TP" H 3550 2600 60  0001 C CNN
-F 2 "" H 3550 2650 60  0000 C CNN
-F 3 "" H 3550 2650 60  0000 C CNN
-	1    3550 2650
+P 3550 2750
+F 0 "TP?" H 3550 2790 20  0000 C CNN
+F 1 "TP" H 3550 2700 60  0001 C CNN
+F 2 "" H 3550 2750 60  0000 C CNN
+F 3 "" H 3550 2750 60  0000 C CNN
+	1    3550 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L TP TP?
 U 1 1 585B7879
-P 4100 2650
-F 0 "TP?" H 4100 2690 20  0000 C CNN
-F 1 "TP" H 4100 2600 60  0001 C CNN
-F 2 "" H 4100 2650 60  0000 C CNN
-F 3 "" H 4100 2650 60  0000 C CNN
-	1    4100 2650
+P 4100 2750
+F 0 "TP?" H 4100 2790 20  0000 C CNN
+F 1 "TP" H 4100 2700 60  0001 C CNN
+F 2 "" H 4100 2750 60  0000 C CNN
+F 3 "" H 4100 2750 60  0000 C CNN
+	1    4100 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -772,4 +743,72 @@ F 3 "" H 1500 3950 60  0000 C CNN
 	1    1500 3950
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	1300 2250 5100 2250
+Entry Wire Line
+	2350 2250 2450 2350
+Entry Wire Line
+	2900 2250 3000 2350
+Entry Wire Line
+	3450 2250 3550 2350
+Entry Wire Line
+	4000 2250 4100 2350
+Entry Wire Line
+	5000 4950 5100 4850
+Entry Wire Line
+	5000 4350 5100 4250
+Entry Wire Line
+	5000 3750 5100 3650
+Entry Wire Line
+	5000 3150 5100 3050
+Text HLabel 1300 2250 0    60   BiDi ~ 0
+KEY[0..7]
+Wire Bus Line
+	5100 2250 5100 4850
+Text HLabel 6800 4800 0    60   Input ~ 0
+LED[0..5]
+Entry Wire Line
+	9700 4800 9800 4700
+Wire Bus Line
+	9700 4800 6800 4800
+Entry Wire Line
+	9150 4800 9250 4700
+Entry Wire Line
+	8600 4800 8700 4700
+Entry Wire Line
+	8050 4800 8150 4700
+Entry Wire Line
+	7500 4800 7600 4700
+Entry Wire Line
+	6950 4800 7050 4700
+Wire Wire Line
+	7050 4700 7050 3400
+Text Label 7600 4650 1    60   ~ 0
+LED1
+Text Label 8150 4650 1    60   ~ 0
+LED2
+Text Label 8700 4650 1    60   ~ 0
+LED3
+Text Label 9250 4650 1    60   ~ 0
+LED4
+Text Label 9800 4650 1    60   ~ 0
+LED5
+Text Label 2450 2400 3    60   ~ 0
+KEY0
+Text Label 3000 2400 3    60   ~ 0
+KEY1
+Text Label 3550 2400 3    60   ~ 0
+KEY2
+Text Label 4100 2400 3    60   ~ 0
+KEY3
+Text Label 5000 3150 2    60   ~ 0
+KEY4
+Text Label 5000 3750 2    60   ~ 0
+KEY5
+Text Label 5000 4350 2    60   ~ 0
+KEY6
+Text Label 5000 4950 2    60   ~ 0
+KEY7
+Text Label 7050 4650 1    60   ~ 0
+LED0
 $EndSCHEMATC

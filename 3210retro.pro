@@ -1,4 +1,4 @@
-update=20.12.2016 14:07:47
+update=Do 22 Dez 2016 19:06:45 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -83,3 +83,4 @@ LibName41=lib/h144tc215a
 LibName42=lib/WL1807MODGIMOCT
 LibName43=lib/tp
 LibName44=lib/w3006
+LibName45=lib/tps61046

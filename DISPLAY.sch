@@ -43,6 +43,7 @@ LIBS:h144tc215a
 LIBS:WL1807MODGIMOCT
 LIBS:tp
 LIBS:w3006
+LIBS:tps61046
 LIBS:3210retro-cache
 EELAYER 25 0
 EELAYER END
@@ -50,7 +51,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title "Nokia 3210 Retrofit"
-Date "2016-12-20"
+Date "2016-12-22"
 Rev "1"
 Comp "www.kurzschluss-blog.de"
 Comment1 ""
