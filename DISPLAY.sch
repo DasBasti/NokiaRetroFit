@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:3210retro-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
