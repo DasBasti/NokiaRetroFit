@@ -1,4 +1,4 @@
-update=26.01.2017 21:38:20
+update=27.01.2017 16:19:25
 version=1
 last_client=kicad
 [pcbnew]
@@ -85,3 +85,7 @@ LibName43=lib/WL1807MODGIMOCT
 LibName44=lib/tp
 LibName45=lib/w3006
 LibName46=lib/tps61046
+LibName47=lib/mp34dt01tr
+LibName48=lib/drv8601
+LibName49=lib/lm4930
+LibName50=lib/ts5a22366
