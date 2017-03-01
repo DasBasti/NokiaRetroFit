@@ -1,4 +1,4 @@
-update=27.01.2017 16:19:25
+update=01.03.2017 20:21:06
 version=1
 last_client=kicad
 [pcbnew]
@@ -89,3 +89,4 @@ LibName47=lib/mp34dt01tr
 LibName48=lib/drv8601
 LibName49=lib/lm4930
 LibName50=lib/ts5a22366
+LibName51=lib/tps61041dbv
