@@ -1,4 +1,4 @@
-update=05.05.2017 15:49:53
+update=18.05.2017 16:31:36
 version=1
 last_client=kicad
 [pcbnew]
@@ -106,3 +106,4 @@ LibName64=H:/GEE/Extern/Elektronik_allg/EAGLE Projekte/KiCad/LIBS/w_transistor
 LibName65=H:/GEE/Extern/Elektronik_allg/EAGLE Projekte/KiCad/LIBS/w_vacuum
 LibName66=H:/GEE/Extern/Elektronik_allg/EAGLE Projekte/KiCad/LIBS/IMX7D
 LibName67=H:/GEE/Extern/Elektronik_allg/EAGLE Projekte/KiCad/LIBS/voltages
+LibName68=H:/GEE/Extern/Elektronik_allg/EAGLE Projekte/KiCad/LIBS/pf3000

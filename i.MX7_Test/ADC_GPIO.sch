@@ -65,6 +65,7 @@ LIBS:w_transistor
 LIBS:w_vacuum
 LIBS:IMX7D
 LIBS:voltages
+LIBS:pf3000
 LIBS:i.MX7_Test-cache
 EELAYER 25 0
 EELAYER END

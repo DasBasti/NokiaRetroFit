@@ -65,6 +65,7 @@ LIBS:w_transistor
 LIBS:w_vacuum
 LIBS:IMX7D
 LIBS:voltages
+LIBS:pf3000
 LIBS:i.MX7_Test-cache
 EELAYER 25 0
 EELAYER END
@@ -80,4 +81,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L PF3000 U?
+U 1 1 591F927C
+P 6800 3250
+F 0 "U?" H 6800 3250 60  0000 C CNN
+F 1 "PF3000" H 6800 3250 60  0000 C CNN
+F 2 "" H 6800 3250 60  0001 C CNN
+F 3 "" H 6800 3250 60  0001 C CNN
+	1    6800 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
