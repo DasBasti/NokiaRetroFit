@@ -28,50 +28,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ACS
-LIBS:ADV7533
-LIBS:bluetooth
-LIBS:camera1
-LIBS:CC26XX
-LIBS:con-usb
-LIBS:ESP8266 - Kopie
-LIBS:ESP8266
-LIBS:ESS
-LIBS:LMH0030
-LIBS:lora
-LIBS:open-project
-LIBS:s_relays
-LIBS:shield_arduino
-LIBS:silego
-LIBS:siona
-LIBS:STM
-LIBS:stm8
-LIBS:stm32
-LIBS:TFP410
-LIBS:TI
-LIBS:top22xy
-LIBS:TRANSFORMER
-LIBS:USB_c
-LIBS:w_analog
-LIBS:w_connectors
-LIBS:w_device
-LIBS:w_logic
-LIBS:w_memory
-LIBS:w_microcontrollers
-LIBS:w_opto
-LIBS:w_relay
-LIBS:w_rtx
-LIBS:w_transistor
-LIBS:w_vacuum
-LIBS:IMX7D
-LIBS:voltages
-LIBS:pf3000
+LIBS:ip4292cz10-tbr
 LIBS:i.MX7_Test-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -643,4 +606,16 @@ Wire Notes Line
 	11850 1450 11800 1500
 Text Notes 11450 1400 0    60   ~ 0
 DCDC
+$Sheet
+S 8750 5250 1000 1000
+U 5926A8F7
+F0 "USB" 60
+F1 "USB.sch" 60
+$EndSheet
+Wire Notes Line
+	8750 5700 8050 5700
+Wire Notes Line
+	8050 5700 8150 5600
+Wire Notes Line
+	8050 5700 8150 5800
 $EndSCHEMATC

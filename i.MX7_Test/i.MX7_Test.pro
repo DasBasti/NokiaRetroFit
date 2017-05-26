@@ -1,4 +1,4 @@
-update=21.05.2017 22:04:08
+update=Fr 26 Mai 2017 11:11:29 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -16,6 +16,25 @@ SpiceUseNetNumbers=0
 LabSize=60
 [general]
 version=1
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=
+PadDrill=0.762
+PadDrillOvalY=0.762
+PadSizeH=1.524
+PadSizeV=1.524
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15
 [eeschema]
 version=1
 LibDir=
@@ -88,22 +107,4 @@ LibName65=H:/GEE/Extern/Elektronik_allg/EAGLE Projekte/KiCad/LIBS/w_vacuum
 LibName66=H:/GEE/Extern/Elektronik_allg/EAGLE Projekte/KiCad/LIBS/IMX7D
 LibName67=H:/GEE/Extern/Elektronik_allg/EAGLE Projekte/KiCad/LIBS/voltages
 LibName68=H:/GEE/Extern/Elektronik_allg/EAGLE Projekte/KiCad/LIBS/pf3000
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=
-PadDrill=0.762
-PadDrillOvalY=0.762
-PadSizeH=1.524
-PadSizeV=1.524
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.15
-ModuleOutlineThickness=0.15
+LibName69=/home/bastian/Dokumente/NokiaRetroFit/lib/ip4292cz10-tbr

@@ -28,50 +28,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ACS
-LIBS:ADV7533
-LIBS:bluetooth
-LIBS:camera1
-LIBS:CC26XX
-LIBS:con-usb
-LIBS:ESP8266 - Kopie
-LIBS:ESP8266
-LIBS:ESS
-LIBS:LMH0030
-LIBS:lora
-LIBS:open-project
-LIBS:s_relays
-LIBS:shield_arduino
-LIBS:silego
-LIBS:siona
-LIBS:STM
-LIBS:stm8
-LIBS:stm32
-LIBS:TFP410
-LIBS:TI
-LIBS:top22xy
-LIBS:TRANSFORMER
-LIBS:USB_c
-LIBS:w_analog
-LIBS:w_connectors
-LIBS:w_device
-LIBS:w_logic
-LIBS:w_memory
-LIBS:w_microcontrollers
-LIBS:w_opto
-LIBS:w_relay
-LIBS:w_rtx
-LIBS:w_transistor
-LIBS:w_vacuum
-LIBS:IMX7D
-LIBS:voltages
-LIBS:pf3000
+LIBS:ip4292cz10-tbr
 LIBS:i.MX7_Test-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 10 11
 Title ""
 Date ""
 Rev ""
