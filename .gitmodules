@@ -9,3 +9,4 @@
 [submodule "software"]
 	path = software
 	url = git@github.com:DasBasti/NokiaRetrofitAplications.git
+	branch = HEAD
