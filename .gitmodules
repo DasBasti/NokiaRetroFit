@@ -1,9 +1,11 @@
 [submodule "lib_brd"]
 	path = lib_brd
 	url = git@github.com:DasBasti/KiCadFootprintLibrary.git
+	branch = HEAD
 [submodule "lib_sch"]
 	path = lib_sch
 	url = git@github.com:DasBasti/KiCadSchematicLibrary.git
+	branch = HEAD
 [submodule "software"]
 	path = software
 	url = git@github.com:DasBasti/NokiaRetrofitAplications.git
