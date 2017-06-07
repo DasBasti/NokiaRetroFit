@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name buttons)(type KiCad)(uri "$(KIPRJMOD)\\footprints\\buttons.pretty")(options "")(descr ""))
-  (lib (name ESP8266)(type KiCad)(uri "$(KIPRJMOD)\\footprints\\ESP8266.pretty")(options "")(descr ""))
+  (lib (name buttons)(type KiCad)(uri "$(KIPRJMOD)\\lib_brd\\buttons.pretty")(options "")(descr ""))
+  (lib (name ESP8266)(type KiCad)(uri "$(KIPRJMOD)\\lib_brd\\ESP8266.pretty")(options "")(descr ""))
+  (lib (name NokiaRetroFit)(type KiCad)(uri "$(KIPRJMOD)\\lib_brd\\NokiaRetroFit.pretty")(options "")(descr ""))
 )
