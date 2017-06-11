@@ -50,15 +50,20 @@ LIBS:drv8601
 LIBS:lm4930
 LIBS:ts5a22366
 LIBS:tps61041dbv
+LIBS:IMX7D
+LIBS:ip4292cz10-tbr
+LIBS:mcimx7d7dvm10sc
+LIBS:pf3000
+LIBS:voltages
 LIBS:3210retro-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 7 10
 Title "Nokia 3210 Retrofit"
 Date "2016-12-22"
-Rev "1"
+Rev "2"
 Comp "www.kurzschluss-blog.de"
 Comment1 ""
 Comment2 ""

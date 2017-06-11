@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ip4292cz10-tbr
 LIBS:i.MX7_Test-cache
 EELAYER 26 0
 EELAYER END
