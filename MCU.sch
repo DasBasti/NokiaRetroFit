@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:3210retro-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -691,9 +690,9 @@ Wire Wire Line
 Wire Wire Line
 	5300 7550 6200 7550
 Wire Wire Line
-	6200 6800 6200 7550
+	6200 7550 6200 6800
 Wire Wire Line
-	1250 6800 6200 6800
+	6200 6800 1250 6800
 Connection ~ 5750 6800
 $Comp
 L R R?

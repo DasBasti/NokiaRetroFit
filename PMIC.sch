@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:3210retro-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1908,12 +1907,12 @@ F 3 "" H 200 -400 50  0001 C CNN
 $EndComp
 $Comp
 L PF3000 U?
-U 1 1 593FB77D
+U 1 1 59405399
 P 9450 2550
 F 0 "U?" H 9400 2887 60  0000 C CNN
 F 1 "PF3000" H 9400 2781 60  0000 C CNN
-F 2 "" H 100 -1950 60  0001 C CNN
-F 3 "" H 100 -1950 60  0001 C CNN
+F 2 "" H 50  -2400 60  0001 C CNN
+F 3 "" H 50  -2400 60  0001 C CNN
 	1    9450 2550
 	1    0    0    -1  
 $EndComp
