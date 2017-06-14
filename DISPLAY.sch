@@ -54,8 +54,7 @@ LIBS:ip4292cz10-tbr
 LIBS:mcimx7d7dvm10sc
 LIBS:pf3000
 LIBS:voltages
-LIBS:3210retro-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8

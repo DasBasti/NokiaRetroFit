@@ -1,4 +1,4 @@
-update=So 11 Jun 2017 18:21:47 CEST
+update=Mi 14 Jun 2017 18:17:32 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=std.kicad_wks
@@ -96,4 +94,6 @@ LibName54=lib_sch/IS42S16400J
 LibName55=lib_sch/mcimx7d7dvm10sc
 LibName56=lib_sch/pf3000
 LibName57=lib_sch/voltages
+[general]
+version=1
 

@@ -54,8 +54,7 @@ LIBS:ip4292cz10-tbr
 LIBS:mcimx7d7dvm10sc
 LIBS:pf3000
 LIBS:voltages
-LIBS:3210retro-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -69,8 +68,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 8350 3400 0    60   BiDi ~ 0
-KEY[0..7]
+Text HLabel 15050 650  2    60   Input ~ 0
+KEYPAD_ROW[0..3]
 Text HLabel 1250 6800 0    60   Input ~ 0
 ~ON
 Text HLabel 2650 1250 2    60   Input ~ 0
@@ -206,33 +205,21 @@ F 3 "" H 8600 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 3700 9250 3700
+	13700 6050 14400 6050
 Wire Wire Line
-	8750 3800 9250 3800
+	13700 5850 14400 5850
 Wire Wire Line
-	8550 3900 9250 3900
+	13700 5650 14400 5650
 Wire Wire Line
-	8550 4000 9250 4000
+	13700 5450 14400 5450
 Wire Wire Line
-	8550 4100 9250 4100
+	13700 5950 14400 5950
 Wire Wire Line
-	8550 4200 9250 4200
+	13700 5750 14400 5750
 Wire Wire Line
-	8750 4500 9250 4500
+	13700 5550 14400 5550
 Wire Wire Line
-	8750 4600 9250 4600
-Wire Wire Line
-	8750 4700 9250 4700
-Wire Wire Line
-	8750 4800 9250 4800
-Wire Wire Line
-	8750 4900 9250 4900
-Wire Wire Line
-	8750 5000 9250 5000
-Wire Wire Line
-	8550 5100 9250 5100
-Wire Wire Line
-	8550 5200 9250 5200
+	13700 5350 14400 5350
 $Comp
 L Crystal Y202
 U 1 1 584A70A2
@@ -459,71 +446,25 @@ F 3 "" H 1300 7650 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Bus Line
-	8650 3400 8650 4900
-Entry Wire Line
-	8650 4400 8750 4500
-Entry Wire Line
-	8650 4500 8750 4600
-Entry Wire Line
-	8650 4600 8750 4700
-Entry Wire Line
-	8650 4700 8750 4800
-Entry Wire Line
-	8650 4800 8750 4900
-Entry Wire Line
-	8650 4900 8750 5000
-Entry Wire Line
-	8450 5000 8550 5100
-Entry Wire Line
-	8450 5100 8550 5200
-Wire Bus Line
-	8650 3400 8350 3400
-Entry Wire Line
-	8650 3600 8750 3700
-Entry Wire Line
-	8650 3700 8750 3800
-Text Label 8800 3700 0    60   ~ 0
-KEY0
-Text Label 8800 3800 0    60   ~ 0
-KEY1
-Text Label 8800 4500 0    60   ~ 0
-KEY2
-Text Label 8800 4600 0    60   ~ 0
-KEY3
-Text Label 8800 4700 0    60   ~ 0
-KEY4
-Text Label 8800 4800 0    60   ~ 0
-KEY5
-Text Label 8800 4900 0    60   ~ 0
-KEY6
-Text Label 8800 5000 0    60   ~ 0
-KEY7
-Text HLabel 8350 3550 0    60   Output ~ 0
-LED[0..5]
-Wire Bus Line
-	8350 3550 8450 3550
-Wire Bus Line
-	8450 3550 8450 5100
-Entry Wire Line
-	8450 3800 8550 3900
-Entry Wire Line
-	8450 3900 8550 4000
-Entry Wire Line
-	8450 4000 8550 4100
-Entry Wire Line
-	8450 4100 8550 4200
-Text Label 8800 5100 0    60   ~ 0
-LED0
-Text Label 8800 5200 0    60   ~ 0
-LED1
-Text Label 8800 3900 0    60   ~ 0
-LED2
-Text Label 8800 4000 0    60   ~ 0
-LED3
-Text Label 8800 4100 0    60   ~ 0
-LED4
-Text Label 8800 4200 0    60   ~ 0
-LED5
+	13850 650  13950 650 
+Text Label 14400 6050 2    60   ~ 0
+KEYPAD_COL0
+Text Label 14400 5850 2    60   ~ 0
+KEYPAD_COL1
+Text Label 14400 5650 2    60   ~ 0
+KEYPAD_COL2
+Text Label 14400 5450 2    60   ~ 0
+KEYPAD_COL3
+Text Label 14400 5950 2    60   ~ 0
+KEYPAD_ROW0
+Text Label 14400 5750 2    60   ~ 0
+KEYPAD_ROW1
+Text Label 14400 5550 2    60   ~ 0
+KEYPAD_ROW2
+Text Label 14400 5350 2    60   ~ 0
+KEYPAD_ROW3
+Text HLabel 4650 4350 2    60   Output ~ 0
+LED_PWM
 Entry Wire Line
 	7950 850  8050 750 
 Entry Wire Line
@@ -690,9 +631,9 @@ Wire Wire Line
 Wire Wire Line
 	5300 7550 6200 7550
 Wire Wire Line
-	6200 7550 6200 6800
+	6200 6800 6200 7550
 Wire Wire Line
-	6200 6800 1250 6800
+	1250 6800 6200 6800
 Connection ~ 5750 6800
 $Comp
 L R R?
@@ -922,4 +863,86 @@ Wire Wire Line
 	2800 7150 2800 7200
 Connection ~ 2500 7150
 Connection ~ 2800 7550
+$Comp
+L MCIMX7D7DVM10SC U?
+U 8 1 594174AE
+P 12600 1800
+F 0 "U?" H 12600 1800 60  0000 L CNN
+F 1 "MCIMX7D7DVM10SC" H 12600 1700 60  0000 L CNN
+F 2 "" H 10350 3500 60  0001 C CNN
+F 3 "" H 10350 3500 60  0001 C CNN
+	8    12600 1800
+	1    0    0    -1  
+$EndComp
+Text HLabel 13950 650  2    60   Output ~ 0
+KEYPAD_COL[0..3]
+Wire Bus Line
+	19050 5200 19050 5200
+Wire Wire Line
+	13750 1150 13050 1150
+Wire Wire Line
+	13750 1050 13050 1050
+Wire Wire Line
+	13750 950  13050 950 
+Wire Wire Line
+	13750 850  13050 850 
+Wire Wire Line
+	14850 1150 14150 1150
+Wire Wire Line
+	14850 1050 14150 1050
+Wire Wire Line
+	14850 950  14150 950 
+Wire Wire Line
+	14850 850  14150 850 
+Text Label 13050 1150 0    60   ~ 0
+KEYPAD_COL0
+Text Label 13050 1050 0    60   ~ 0
+KEYPAD_COL1
+Text Label 13050 950  0    60   ~ 0
+KEYPAD_COL2
+Text Label 13050 850  0    60   ~ 0
+KEYPAD_COL3
+Text Label 14150 1150 0    60   ~ 0
+KEYPAD_ROW0
+Text Label 14150 1050 0    60   ~ 0
+KEYPAD_ROW1
+Text Label 14150 950  0    60   ~ 0
+KEYPAD_ROW2
+Text Label 14150 850  0    60   ~ 0
+KEYPAD_ROW3
+Wire Bus Line
+	15050 650  14950 650 
+Wire Bus Line
+	14950 650  14950 1050
+Entry Wire Line
+	14850 850  14950 750 
+Entry Wire Line
+	14850 950  14950 850 
+Entry Wire Line
+	14850 1050 14950 950 
+Entry Wire Line
+	14850 1150 14950 1050
+Wire Bus Line
+	13850 650  13850 1050
+Entry Wire Line
+	13750 1150 13850 1050
+Entry Wire Line
+	13750 1050 13850 950 
+Entry Wire Line
+	13750 950  13850 850 
+Entry Wire Line
+	13750 850  13850 750 
+$Comp
+L MCIMX7D7DVM10SC U?
+U 6 1 5941FF2F
+P 2300 3800
+F 0 "U?" H 2300 3800 60  0000 L CNN
+F 1 "MCIMX7D7DVM10SC" H 2300 3700 60  0000 L CNN
+F 2 "" H 50  5500 60  0001 C CNN
+F 3 "" H 50  5500 60  0001 C CNN
+	6    2300 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4350 3400 4350
 $EndSCHEMATC
