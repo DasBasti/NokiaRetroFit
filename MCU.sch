@@ -89,7 +89,7 @@ Text HLabel 1700 1450 0    60   Input ~ 0
 V_USB_BUS_ref
 Text HLabel 1700 1550 0    60   Input ~ 0
 VDC_ref
-Text HLabel 4650 5450 2    60   Input ~ 0
+Text HLabel 4600 5250 2    60   Input ~ 0
 ~CHARGING
 $Sheet
 S 10600 10050 1050 1000
@@ -486,9 +486,9 @@ Wire Wire Line
 Wire Wire Line
 	5150 7550 6050 7550
 Wire Wire Line
-	6050 7550 6050 6800
+	6050 6800 6050 7550
 Wire Wire Line
-	6050 6800 1100 6800
+	1100 6800 6050 6800
 Connection ~ 5600 6800
 $Comp
 L R R?
@@ -1720,5 +1720,45 @@ PMIC_SD_CSEL
 Wire Wire Line
 	4650 5350 3400 5350
 Wire Wire Line
-	3400 5450 4650 5450
+	3400 5250 4600 5250
+Text Label 9600 850  2    60   ~ 0
+IMU_EN
+Text Label 9600 1000 2    60   ~ 0
+IMU_DRDY_M
+Text Label 9600 1100 2    60   ~ 0
+IMU_INT_M
+Text Label 9600 1200 2    60   ~ 0
+IMU_INT2
+Text Label 9600 1300 2    60   ~ 0
+IMU_INT1
+Text Label 4350 5450 2    60   ~ 0
+IMU_EN
+Text Label 4350 5550 2    60   ~ 0
+IMU_DRDY_M
+Text Label 4350 5650 2    60   ~ 0
+IMU_INT_M
+Text Label 4350 5750 2    60   ~ 0
+IMU_INT2
+Text Label 4350 5850 2    60   ~ 0
+IMU_INT1
+Wire Wire Line
+	9600 850  8900 850 
+Wire Wire Line
+	9600 1000 8900 1000
+Wire Wire Line
+	9600 1100 8900 1100
+Wire Wire Line
+	9600 1200 8900 1200
+Wire Wire Line
+	9600 1300 8900 1300
+Wire Wire Line
+	4350 5450 3400 5450
+Wire Wire Line
+	3400 5550 4350 5550
+Wire Wire Line
+	3400 5650 4350 5650
+Wire Wire Line
+	3400 5750 4350 5750
+Wire Wire Line
+	3400 5850 4350 5850
 $EndSCHEMATC
