@@ -1,4 +1,4 @@
-update=Mi 14 Jun 2017 18:17:32 CEST
+update=Do 15 Jun 2017 12:38:00 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,6 +33,8 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -94,6 +96,6 @@ LibName54=lib_sch/IS42S16400J
 LibName55=lib_sch/mcimx7d7dvm10sc
 LibName56=lib_sch/pf3000
 LibName57=lib_sch/voltages
-[general]
-version=1
+LibName58=lib_sch/emif06-msd02c3
+LibName59=lib_sch/mtfc8gacaeam-1m_wt
 

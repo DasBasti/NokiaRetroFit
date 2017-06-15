@@ -54,11 +54,14 @@ LIBS:ip4292cz10-tbr
 LIBS:mcimx7d7dvm10sc
 LIBS:pf3000
 LIBS:voltages
+LIBS:emif06-msd02c3
+LIBS:mtfc8gacaeam-1m_wt
+LIBS:3210retro-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 5 11
 Title "Nokia 3210 Retrofit"
 Date "2016-12-22"
 Rev "2"
