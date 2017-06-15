@@ -56,17 +56,18 @@ LIBS:pf3000
 LIBS:voltages
 LIBS:emif06-msd02c3
 LIBS:mtfc8gacaeam-1m_wt
+LIBS:sn74avc2t244
 LIBS:3210retro-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 10 11
+Sheet 10 12
 Title "Nokia 3210 Retrofit"
-Date ""
+Date "2017-06-15"
 Rev "2"
 Comp "www.kurzschluss-blog.de"
-Comment1 ""
+Comment1 "Retrofitting board for Nokia 3210 mobile phone"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -166,7 +167,7 @@ $EndComp
 Wire Wire Line
 	2600 2500 2600 2600
 Wire Wire Line
-	2600 2600 7950 2600
+	2300 2600 7950 2600
 Connection ~ 3000 2600
 Connection ~ 3350 2600
 Wire Wire Line
@@ -1916,6 +1917,44 @@ F 1 "PF3000" H 9400 2781 60  0000 C CNN
 F 2 "" H 50  -2400 60  0001 C CNN
 F 3 "" H 50  -2400 60  0001 C CNN
 	1    9450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +4V #PWR?
+U 1 1 594861DD
+P 1700 2500
+F 0 "#PWR?" H 1700 2350 50  0001 C CNN
+F 1 "+4V" H 1700 2640 50  0000 C CNN
+F 2 "" H 1700 2500 50  0000 C CNN
+F 3 "" H 1700 2500 50  0000 C CNN
+	1    1700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L?
+U 1 1 59487604
+P 2200 2600
+F 0 "L?" V 2250 2600 50  0000 C CNN
+F 1 "100R" V 2150 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 2200 2600 50  0001 C CNN
+F 3 "" H 2200 2600 50  0000 C CNN
+	1    2200 2600
+	0    1    -1   0   
+$EndComp
+Connection ~ 2600 2600
+Wire Wire Line
+	2100 2600 1700 2600
+Wire Wire Line
+	1700 2600 1700 2500
+$Comp
+L VCOREDIG #PWR?
+U 1 1 59487D09
+P 4750 4850
+F 0 "#PWR?" H 450 -600 50  0001 C CNN
+F 1 "VCOREDIG" H 4767 5023 50  0000 C CNN
+F 2 "" H 450 -450 50  0001 C CNN
+F 3 "" H 450 -450 50  0001 C CNN
+	1    4750 4850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

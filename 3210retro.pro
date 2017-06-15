@@ -1,4 +1,4 @@
-update=Do 15 Jun 2017 12:38:00 CEST
+update=Do 15 Jun 2017 18:16:18 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -98,4 +98,5 @@ LibName56=lib_sch/pf3000
 LibName57=lib_sch/voltages
 LibName58=lib_sch/emif06-msd02c3
 LibName59=lib_sch/mtfc8gacaeam-1m_wt
+LibName60=lib_sch/sn74avc2t244
 

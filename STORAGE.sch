@@ -56,17 +56,18 @@ LIBS:pf3000
 LIBS:voltages
 LIBS:emif06-msd02c3
 LIBS:mtfc8gacaeam-1m_wt
+LIBS:sn74avc2t244
 LIBS:3210retro-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Sheet 11 12
+Title "Nokia 3210 Retrofit"
+Date "2017-06-15"
+Rev "2"
+Comp "www.kurzschluss-blog.de"
+Comment1 "Retrofitting board for Nokia 3210 mobile phone"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -149,29 +150,11 @@ SAI2_3
 Text Label 5150 2200 2    60   ~ 0
 SAI2_0
 Wire Bus Line
-	4950 900  4950 1100
-Wire Bus Line
-	4950 1100 4950 1300
-Wire Bus Line
-	4950 1300 4950 1400
-Wire Bus Line
-	4950 1400 4950 1500
-Wire Bus Line
-	4950 1500 4950 1700
-Wire Bus Line
-	4950 1700 4950 1800
-Wire Bus Line
-	4950 1800 4950 1900
+	4950 900  4950 1900
 Wire Bus Line
 	4950 900  5650 900 
 Wire Bus Line
-	5250 1750 5250 2100
-Wire Bus Line
-	5250 2100 5250 2300
-Wire Bus Line
-	5250 2300 5250 2400
-Wire Bus Line
-	5250 2400 5250 2500
+	5250 1750 5250 2500
 Wire Bus Line
 	5250 1750 5650 1750
 Text HLabel 5650 900  2    60   BiDi ~ 0
@@ -201,23 +184,9 @@ F 3 "" H 10000 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 3050 10000 3100
+	10000 3050 10000 3150
 Wire Wire Line
-	10000 3100 10000 3150
-Wire Wire Line
-	8150 3100 8250 3100
-Wire Wire Line
-	8250 3100 8350 3100
-Wire Wire Line
-	8350 3100 9100 3100
-Wire Wire Line
-	9100 3100 10000 3100
-Wire Wire Line
-	10000 3100 10100 3100
-Wire Wire Line
-	10100 3100 10200 3100
-Wire Wire Line
-	10200 3100 10300 3100
+	8150 3100 10300 3100
 Wire Wire Line
 	10300 3100 10300 3050
 Connection ~ 10000 3100
@@ -316,9 +285,7 @@ $EndComp
 Wire Wire Line
 	9100 2250 9250 2250
 Wire Wire Line
-	9100 1450 9100 1550
-Wire Wire Line
-	9100 1550 9100 2250
+	9100 1450 9100 2250
 Wire Wire Line
 	9100 1550 8250 1550
 Wire Wire Line
@@ -471,15 +438,9 @@ $EndComp
 Wire Wire Line
 	9400 4050 9400 3800
 Wire Wire Line
-	9050 4050 9100 4050
+	9050 4050 9400 4050
 Wire Wire Line
-	9100 4050 9400 4050
-Wire Wire Line
-	9100 3750 9100 3850
-Wire Wire Line
-	9100 3850 9100 3950
-Wire Wire Line
-	9100 3950 9100 4050
+	9100 3750 9100 4050
 Wire Wire Line
 	9100 3750 9050 3750
 Connection ~ 9100 4050
@@ -503,17 +464,9 @@ Connection ~ 9100 3850
 Wire Wire Line
 	9050 4250 9100 4250
 Wire Wire Line
-	9100 4250 9100 4350
+	9100 4250 9100 4650
 Wire Wire Line
-	9100 4350 9100 4450
-Wire Wire Line
-	9100 4450 9100 4550
-Wire Wire Line
-	9100 4550 9100 4650
-Wire Wire Line
-	9050 4650 9100 4650
-Wire Wire Line
-	9100 4650 9400 4650
+	9050 4650 9400 4650
 Wire Wire Line
 	9050 4550 9100 4550
 Connection ~ 9100 4550
@@ -540,27 +493,7 @@ $EndComp
 Wire Wire Line
 	9050 4850 9100 4850
 Wire Wire Line
-	9100 4850 9100 4950
-Wire Wire Line
-	9100 4950 9100 5050
-Wire Wire Line
-	9100 5050 9100 5150
-Wire Wire Line
-	9100 5150 9100 5250
-Wire Wire Line
-	9100 5250 9100 5350
-Wire Wire Line
-	9100 5350 9100 5550
-Wire Wire Line
-	9100 5550 9100 5650
-Wire Wire Line
-	9100 5650 9100 5750
-Wire Wire Line
-	9100 5750 9100 5850
-Wire Wire Line
-	9100 5850 9100 5950
-Wire Wire Line
-	9100 5950 9100 6100
+	9100 4850 9100 6100
 Wire Wire Line
 	9050 4950 9100 4950
 Connection ~ 9100 4950
@@ -616,9 +549,7 @@ $EndComp
 Wire Wire Line
 	1950 1200 1850 1200
 Wire Wire Line
-	1850 1150 1850 1200
-Wire Wire Line
-	1850 1200 1850 1350
+	1850 1150 1850 1350
 $Comp
 L NVCC_3V3 #PWR?
 U 1 1 5944EF86
@@ -656,8 +587,6 @@ F 3 "" H 1850 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 4000 1850 4100
-Wire Wire Line
 	1850 4100 1850 4200
 $Comp
 L GND #PWR?
@@ -684,9 +613,7 @@ F 3 "" H 1850 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 2800 1850 2900
-Wire Wire Line
-	1850 2900 1850 3000
+	1850 2800 1850 3000
 $Comp
 L GND #PWR?
 U 1 1 5944FABA
@@ -712,9 +639,7 @@ F 3 "" H 1850 5550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 5200 1850 5300
-Wire Wire Line
-	1850 5300 1850 5400
+	1850 5200 1850 5400
 $Comp
 L GND #PWR?
 U 1 1 5944FB14
@@ -760,7 +685,7 @@ Wire Wire Line
 	1950 5300 1850 5300
 Connection ~ 1850 5300
 Wire Wire Line
-	1950 4100 1850 4100
+	1700 4100 1950 4100
 Connection ~ 1850 4100
 Wire Wire Line
 	1950 2900 1850 2900
@@ -779,19 +704,6 @@ $EndComp
 Text Notes 1900 5200 0    60   ~ 0
 1V8
 $Comp
-L SW2OUT #PWR?
-U 1 1 5944FEFA
-P 1850 4000
-F 0 "#PWR?" H 1850 3850 50  0001 C CNN
-F 1 "SW2OUT" H 1850 4150 50  0000 C CNN
-F 2 "" H 1850 4000 50  0001 C CNN
-F 3 "" H 1850 4000 50  0001 C CNN
-	1    1850 4000
-	1    0    0    -1  
-$EndComp
-Text Notes 1900 4000 0    60   ~ 0
-1V8
-$Comp
 L NVCC_SD1 #PWR?
 U 1 1 594500AD
 P 1850 2800
@@ -803,23 +715,23 @@ F 3 "" H 1850 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 4100 4900 4100
+	4150 4100 5700 4100
 Wire Wire Line
-	4150 4200 4900 4200
+	4150 4200 5700 4200
 Wire Wire Line
-	4150 4300 4900 4300
+	4150 4300 5700 4300
 Wire Wire Line
-	4150 4400 4900 4400
+	4150 4400 5700 4400
 Wire Wire Line
-	4150 4500 4900 4500
+	4150 4500 5700 4500
 Wire Wire Line
-	4150 4600 4900 4600
+	4150 4600 5700 4600
 Wire Wire Line
-	4150 5000 4900 5000
+	4150 5000 5700 5000
 Wire Wire Line
-	4150 4800 4900 4800
+	4150 4800 5700 4800
 Wire Wire Line
-	4150 4900 4900 4900
+	4150 4900 5700 4900
 Text Label 4900 4300 2    60   ~ 0
 SD2_D0
 Text Label 4900 4400 2    60   ~ 0
@@ -837,5 +749,63 @@ SD2_~CD
 Text Label 4900 4900 2    60   ~ 0
 SD2_WP
 Text Label 4900 5000 2    60   ~ 0
-SD2_~RESET
+SD2_~RST
+Wire Wire Line
+	4150 3800 4900 3800
+Wire Wire Line
+	4150 3700 5150 3700
+Wire Wire Line
+	4150 3600 4900 3600
+Text Label 4900 3600 2    60   ~ 0
+SD1_~CD
+Text Label 4900 3700 2    60   ~ 0
+SD1_WP
+Text Label 4900 3800 2    60   ~ 0
+SD1_~RST
+Text HLabel 6000 3850 2    60   BiDi ~ 0
+SD2_BUS[0..8]
+Text Label 5700 4100 2    60   ~ 0
+SD2_BUS0
+Text Label 5700 4200 2    60   ~ 0
+SD2_BUS1
+Text Label 5700 4300 2    60   ~ 0
+SD2_BUS2
+Text Label 5700 4400 2    60   ~ 0
+SD2_BUS3
+Text Label 5700 4500 2    60   ~ 0
+SD2_BUS4
+Text Label 5700 4600 2    60   ~ 0
+SD2_BUS5
+Text Label 5700 4800 2    60   ~ 0
+SD2_BUS6
+Text Label 5700 4900 2    60   ~ 0
+SD2_BUS7
+Text Label 5700 5000 2    60   ~ 0
+SD2_BUS8
+Entry Wire Line
+	5700 4100 5800 4000
+Entry Wire Line
+	5700 4200 5800 4100
+Entry Wire Line
+	5700 4300 5800 4200
+Entry Wire Line
+	5700 4400 5800 4300
+Entry Wire Line
+	5700 4500 5800 4400
+Entry Wire Line
+	5700 4600 5800 4500
+Entry Wire Line
+	5700 5000 5800 4900
+Entry Wire Line
+	5700 4800 5800 4700
+Entry Wire Line
+	5700 4900 5800 4800
+Wire Bus Line
+	5800 3850 5800 4900
+Wire Bus Line
+	5800 3850 6000 3850
+Text GLabel 1700 4100 0    60   Input ~ 0
+NVCC_SD2
+Text GLabel 5150 3700 2    60   Output ~ 0
+CCM_CLKO2_32k
 $EndSCHEMATC
