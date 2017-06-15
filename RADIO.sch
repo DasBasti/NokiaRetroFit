@@ -57,6 +57,7 @@ LIBS:voltages
 LIBS:emif06-msd02c3
 LIBS:mtfc8gacaeam-1m_wt
 LIBS:sn74avc2t244
+LIBS:lsm9ds1
 LIBS:3210retro-cache
 EELAYER 25 0
 EELAYER END
