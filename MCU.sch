@@ -1712,11 +1712,11 @@ Wire Wire Line
 Wire Wire Line
 	3400 5150 4350 5150
 Text Label 4350 5150 2    60   ~ 0
-PMIC_SD_CSEL
+PMIC_SD_VSEL
 Wire Wire Line
 	7800 10150 7000 10150
 Text Label 7000 10150 0    60   ~ 0
-PMIC_SD_CSEL
+PMIC_SD_VSEL
 Wire Wire Line
 	4650 5350 3400 5350
 Wire Wire Line
