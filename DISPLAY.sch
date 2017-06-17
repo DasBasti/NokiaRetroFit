@@ -57,16 +57,16 @@ LIBS:voltages
 LIBS:emif06-msd02c3
 LIBS:mtfc8gacaeam-1m_wt
 LIBS:sn74avc2t244
-LIBS:WM8960CGEFL
-LIBS:tps61021a
+LIBS:lsm9ds1
+LIBS:usb_otg
 LIBS:3210retro-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 13
+Sheet 4 14
 Title "Nokia 3210 Retrofit"
-Date "2017-06-15"
+Date "2017-06-17"
 Rev "2"
 Comp "www.kurzschluss-blog.de"
 Comment1 "Retrofitting board for Nokia 3210 mobile phone"

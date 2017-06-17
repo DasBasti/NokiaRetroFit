@@ -1,4 +1,4 @@
-update=17.06.2017 15:04:31
+update=Sa 17 Jun 2017 20:31:53 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -102,4 +102,5 @@ LibName60=lib_sch/sn74avc2t244
 LibName61=lib_sch/lsm9ds1
 LibName62=lib_sch/WM8960CGEFL
 LibName63=lib_sch/tps61021a
+LibName64=lib_sch/usb_otg
 
