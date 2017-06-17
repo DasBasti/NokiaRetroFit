@@ -57,7 +57,7 @@ LIBS:voltages
 LIBS:emif06-msd02c3
 LIBS:mtfc8gacaeam-1m_wt
 LIBS:sn74avc2t244
-LIBS:lsm9ds1
+LIBS:WM8960CGEFL
 LIBS:3210retro-cache
 EELAYER 25 0
 EELAYER END
@@ -575,7 +575,7 @@ Wire Bus Line
 	5500 1350 5500 3100
 Wire Bus Line
 	6600 1350 6600 4000
-Text Label 1800 800  0    60   ~ 0
+Text Label 1700 1100 0    60   ~ 0
 DRAM_DATA[0..31]
 Text Label 5600 1350 0    60   ~ 0
 DRAM_ADDR[0..14]

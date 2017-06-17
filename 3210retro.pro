@@ -1,4 +1,4 @@
-update=Do 15 Jun 2017 20:45:27 CEST
+update=16.06.2017 08:49:15
 version=1
 last_client=kicad
 [pcbnew]
@@ -100,4 +100,5 @@ LibName58=lib_sch/emif06-msd02c3
 LibName59=lib_sch/mtfc8gacaeam-1m_wt
 LibName60=lib_sch/sn74avc2t244
 LibName61=lib_sch/lsm9ds1
+LibName62=lib_sch/WM8960CGEFL
 
