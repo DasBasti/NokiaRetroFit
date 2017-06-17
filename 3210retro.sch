@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:3210retro-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -57,8 +58,7 @@ LIBS:voltages
 LIBS:emif06-msd02c3
 LIBS:mtfc8gacaeam-1m_wt
 LIBS:sn74avc2t244
-LIBS:WM8960CGEFL
-LIBS:tps61021a
+LIBS:lsm9ds1
 LIBS:3210retro-cache
 EELAYER 25 0
 EELAYER END
@@ -365,7 +365,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 7750 7650 7750
 $Comp
-L USB_OTG P?
+L USB_OTG-RESCUE-3210retro P?
 U 1 1 594309F1
 P 1650 5250
 F 0 "P?" H 1975 5125 50  0000 C CNN
