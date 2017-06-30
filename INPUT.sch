@@ -1,34 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:3210retro-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:a7
 LIBS:ft232rl
 LIBS:max1555
@@ -59,6 +29,38 @@ LIBS:emif06-msd02c3
 LIBS:mtfc8gacaeam-1m_wt
 LIBS:sn74avc2t244
 LIBS:lsm9ds1
+LIBS:WM8960CGEFL
+LIBS:tps61021a
+LIBS:bq24400
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:3210retro-cache
 EELAYER 25 0
 EELAYER END
@@ -251,10 +253,10 @@ F 3 "" H 4450 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR089
+L GND #PWR702
 U 1 1 5807C50C
 P 1700 4800
-F 0 "#PWR089" H 1700 4550 50  0001 C CNN
+F 0 "#PWR702" H 1700 4550 50  0001 C CNN
 F 1 "GND" H 1700 4650 50  0000 C CNN
 F 2 "" H 1700 4800 50  0000 C CNN
 F 3 "" H 1700 4800 50  0000 C CNN
@@ -282,10 +284,10 @@ Wire Wire Line
 	1900 3950 1700 3950
 Connection ~ 1700 3950
 $Comp
-L +3V3 #PWR090
+L +3V3 #PWR701
 U 1 1 5807C7B5
 P 1700 3350
-F 0 "#PWR090" H 1700 3200 50  0001 C CNN
+F 0 "#PWR701" H 1700 3200 50  0001 C CNN
 F 1 "+3V3" H 1700 3490 50  0000 C CNN
 F 2 "" H 1700 3350 50  0000 C CNN
 F 3 "" H 1700 3350 50  0000 C CNN
@@ -566,10 +568,10 @@ Wire Wire Line
 Wire Wire Line
 	9800 2800 9800 3000
 $Comp
-L +3V3 #PWR091
+L +3V3 #PWR703
 U 1 1 580805E8
 P 7050 2300
-F 0 "#PWR091" H 7050 2150 50  0001 C CNN
+F 0 "#PWR703" H 7050 2150 50  0001 C CNN
 F 1 "+3V3" H 7050 2440 50  0000 C CNN
 F 2 "" H 7050 2300 50  0000 C CNN
 F 3 "" H 7050 2300 50  0000 C CNN
@@ -757,10 +759,10 @@ Wire Wire Line
 	9250 3400 9250 4050
 Connection ~ 9250 4050
 $Comp
-L MMBF170 Q?
+L MMBF170 Q701
 U 1 1 5942422F
 P 9700 4450
-F 0 "Q?" H 9900 4525 50  0000 L CNN
+F 0 "Q701" H 9900 4525 50  0000 L CNN
 F 1 "MMBF170" H 9900 4450 50  0000 L CNN
 F 2 "SOT-23" H 9900 4375 50  0000 L CIN
 F 3 "" H 9700 4450 50  0000 L CNN
@@ -768,10 +770,10 @@ F 3 "" H 9700 4450 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R711
 U 1 1 594243DC
 P 9300 4500
-F 0 "R?" V 9380 4500 50  0000 C CNN
+F 0 "R711" V 9380 4500 50  0000 C CNN
 F 1 "280" V 9300 4500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9230 4500 50  0001 C CNN
 F 3 "" H 9300 4500 50  0000 C CNN
@@ -783,10 +785,10 @@ Wire Wire Line
 Wire Wire Line
 	9150 4500 9100 4500
 $Comp
-L GND #PWR?
+L GND #PWR704
 U 1 1 5942469E
 P 9800 4700
-F 0 "#PWR?" H 9800 4450 50  0001 C CNN
+F 0 "#PWR704" H 9800 4450 50  0001 C CNN
 F 1 "GND" H 9800 4550 50  0000 C CNN
 F 2 "" H 9800 4700 50  0000 C CNN
 F 3 "" H 9800 4700 50  0000 C CNN
