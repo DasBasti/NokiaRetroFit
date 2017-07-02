@@ -655,17 +655,6 @@ F 3 "" H 4200 6900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR?
-U 1 1 5956B6DD
-P 6800 1250
-F 0 "#PWR?" H 6800 1100 50  0001 C CNN
-F 1 "+BATT" H 6800 1390 50  0000 C CNN
-F 2 "" H 6800 1250 50  0000 C CNN
-F 3 "" H 6800 1250 50  0000 C CNN
-	1    6800 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L +BATT_NIMH #PWR?
 U 1 1 5956BDA6
 P 3500 5100
@@ -678,251 +667,249 @@ F 3 "" H 3500 5100 50  0000 C CNN
 $EndComp
 Text HLabel 1650 5950 0    60   Input ~ 0
 V_USB_BUS
-Text Notes 12600 3550 0    99   ~ 20
+Text Notes 12600 3300 0    99   ~ 20
 Power domain overview
-Text Notes 11200 4000 0    60   ~ 0
+Text Notes 11200 3750 0    60   ~ 0
 +BATT_LIPO
-Text Notes 11200 3800 0    60   ~ 12
+Text Notes 11200 3550 0    60   ~ 12
 Net
-Text Notes 13600 3800 0    60   ~ 12
+Text Notes 13600 3550 0    60   ~ 12
 Source
-Text Notes 12000 3800 0    60   ~ 12
+Text Notes 12000 3550 0    60   ~ 12
 Voltage
-Text Notes 12800 3800 0    60   ~ 12
+Text Notes 12800 3550 0    60   ~ 12
 Current (max)
-Text Notes 14400 3800 0    60   ~ 12
+Text Notes 14400 3550 0    60   ~ 12
 Comment
-Text Notes 11200 4200 0    60   ~ 0
+Text Notes 11200 3950 0    60   ~ 0
 +BATT_NIMH
-Text Notes 12000 4000 0    60   ~ 0
+Text Notes 12000 3750 0    60   ~ 0
 3.7V
-Text Notes 12000 4200 0    60   ~ 0
+Text Notes 12000 3950 0    60   ~ 0
 2.4V
-Text Notes 11200 4400 0    60   ~ 0
+Text Notes 11200 4150 0    60   ~ 0
 4V_BST
-Text Notes 12000 4400 0    60   ~ 0
+Text Notes 12000 4150 0    60   ~ 0
 4V
-Text Notes 12800 4400 0    60   ~ 0
+Text Notes 12800 4150 0    60   ~ 0
 3A
-Text Notes 11200 4600 0    60   ~ 0
+Text Notes 11200 4350 0    60   ~ 0
 PMIC_PWR
-Text Notes 12000 4600 0    60   ~ 0
+Text Notes 12000 4350 0    60   ~ 0
 4V
-Text Notes 12800 4600 0    60   ~ 0
+Text Notes 12800 4350 0    60   ~ 0
 3A
-Text Notes 14400 4400 0    60   ~ 0
+Text Notes 14400 4150 0    60   ~ 0
 one of the two batter sources
-Text Notes 11200 4800 0    60   ~ 0
+Text Notes 11200 4550 0    60   ~ 0
 +15V
-Text Notes 13600 4800 0    60   ~ 0
+Text Notes 13600 4550 0    60   ~ 0
 4V
-Text Notes 13600 4600 0    60   ~ 0
+Text Notes 13600 4350 0    60   ~ 0
 4V
-Text Notes 13600 4000 0    60   ~ 0
+Text Notes 13600 3750 0    60   ~ 0
 LiPO Battery
-Text Notes 13600 4200 0    60   ~ 0
+Text Notes 13600 3950 0    60   ~ 0
 Ni-MH Battery
-Text Notes 13600 4400 0    60   ~ 0
+Text Notes 13600 4150 0    60   ~ 0
 TPS61021A
-Text Notes 12800 4000 0    60   ~ 0
+Text Notes 12800 3750 0    60   ~ 0
 3,5A
-Text Notes 12800 4200 0    60   ~ 0
+Text Notes 12800 3950 0    60   ~ 0
 5A
-Text Notes 11200 5000 0    60   ~ 0
+Text Notes 11200 4750 0    60   ~ 0
 SW1AOUT
-Text Notes 11200 5200 0    60   ~ 0
+Text Notes 11200 4950 0    60   ~ 0
 SW1BOUT
-Text Notes 11200 5400 0    60   ~ 0
+Text Notes 11200 5150 0    60   ~ 0
 SW2OUT
-Text Notes 11200 5600 0    60   ~ 0
+Text Notes 11200 5350 0    60   ~ 0
 SW3OUT
-Text Notes 11200 5800 0    60   ~ 0
+Text Notes 11200 5550 0    60   ~ 0
 SWBSTOUT
-Text Notes 11200 7600 0    60   ~ 0
+Text Notes 11200 7350 0    60   ~ 0
 DDR_VREF
-Text Notes 11200 7800 0    60   ~ 0
+Text Notes 11200 7550 0    60   ~ 0
 VSNVS
-Text Notes 11200 8000 0    60   ~ 0
+Text Notes 11200 7750 0    60   ~ 0
 LICELL
-Text Notes 11200 6400 0    60   ~ 0
+Text Notes 11200 6150 0    60   ~ 0
 NVCC_3V3
-Text Notes 11200 6800 0    60   ~ 0
+Text Notes 11200 6550 0    60   ~ 0
 NVCC_SD1
-Text Notes 11200 9000 0    60   ~ 0
+Text Notes 11200 8750 0    60   ~ 0
 VLDO1_1V8
-Text Notes 11200 9200 0    60   ~ 0
+Text Notes 11200 8950 0    60   ~ 0
 VLDO2_1V5
-Text Notes 11200 9400 0    60   ~ 0
+Text Notes 11200 9150 0    60   ~ 0
 VLDO3_3V3
-Text Notes 11200 9600 0    60   ~ 0
+Text Notes 11200 9350 0    60   ~ 0
 VLDO4_2V8
-Text Notes 11200 6200 0    60   ~ 0
+Text Notes 11200 5950 0    60   ~ 0
 VDD_SOC_IN
-Text Notes 11200 6600 0    60   ~ 0
+Text Notes 11200 6350 0    60   ~ 0
 NVCC_1V8
-Text Notes 11200 8400 0    60   ~ 0
+Text Notes 11200 8150 0    60   ~ 0
 VDD_SPK
-Text Notes 11200 8600 0    60   ~ 0
+Text Notes 11200 8350 0    60   ~ 0
 +3.3VDAC
-Text Notes 11200 8800 0    60   ~ 0
+Text Notes 11200 8550 0    60   ~ 0
 VDDA
-Text Notes 11200 8200 0    60   ~ 0
+Text Notes 11200 7950 0    60   ~ 0
 NVCC_DRAM
-Text Notes 11200 7000 0    60   ~ 0
+Text Notes 11200 6750 0    60   ~ 0
 NVCC_SD2
-Text Notes 11200 7200 0    60   ~ 0
+Text Notes 11200 6950 0    60   ~ 0
 NVCC_SD3
-Text Notes 11200 7400 0    60   ~ 0
+Text Notes 11200 7150 0    60   ~ 0
 MEM_3V3
-Text Notes 11200 6000 0    60   ~ 0
+Text Notes 11200 5750 0    60   ~ 0
 VDD_ARM_IN
-Text Notes 12000 5000 0    60   ~ 0
+Text Notes 12000 4750 0    60   ~ 0
 1.1V
-Text Notes 12800 5000 0    60   ~ 0
+Text Notes 12800 4750 0    60   ~ 0
 1A
-Text Notes 13600 5000 0    60   ~ 0
+Text Notes 13600 4750 0    60   ~ 0
 PMIC
-Text Notes 12000 5200 0    60   ~ 0
+Text Notes 12000 4950 0    60   ~ 0
 1V
-Text Notes 12800 5200 0    60   ~ 0
+Text Notes 12800 4950 0    60   ~ 0
 1.75A
-Text Notes 13600 5200 0    60   ~ 0
+Text Notes 13600 4950 0    60   ~ 0
 PMIC
-Text Notes 12000 5400 0    60   ~ 0
+Text Notes 12000 5150 0    60   ~ 0
 1.8V
-Text Notes 12000 6600 0    60   ~ 0
+Text Notes 12000 6350 0    60   ~ 0
 1.8V
-Text Notes 12800 5400 0    60   ~ 0
+Text Notes 12800 5150 0    60   ~ 0
 1.25A
-Text Notes 12800 6600 0    60   ~ 0
+Text Notes 12800 6350 0    60   ~ 0
 1.25A
-Text Notes 12800 5600 0    60   ~ 0
+Text Notes 12800 5350 0    60   ~ 0
 1.5A
-Text Notes 12800 5800 0    60   ~ 0
+Text Notes 12800 5550 0    60   ~ 0
 600mA
-Text Notes 12000 6000 0    60   ~ 0
+Text Notes 12000 5750 0    60   ~ 0
 1.1V
-Text Notes 12000 6200 0    60   ~ 0
+Text Notes 12000 5950 0    60   ~ 0
 1V
-Text Notes 12800 6000 0    60   ~ 0
+Text Notes 12800 5750 0    60   ~ 0
 1A
-Text Notes 12800 6200 0    60   ~ 0
+Text Notes 12800 5950 0    60   ~ 0
 1.75A
-Text Notes 13600 6000 0    60   ~ 0
+Text Notes 13600 5750 0    60   ~ 0
 SW1AOUT
-Text Notes 13600 6200 0    60   ~ 0
+Text Notes 13600 5950 0    60   ~ 0
 SW1BOUT
-Text Notes 12000 6400 0    60   ~ 0
+Text Notes 12000 6150 0    60   ~ 0
 3.3V
-Text Notes 13600 6400 0    60   ~ 0
+Text Notes 13600 6150 0    60   ~ 0
 V33
-Text Notes 12800 6400 0    60   ~ 0
+Text Notes 12800 6150 0    60   ~ 0
 350mA
-Text Notes 12000 6800 0    60   ~ 0
+Text Notes 12000 6550 0    60   ~ 0
 1.8V
-Text Notes 12800 6800 0    60   ~ 0
+Text Notes 12800 6550 0    60   ~ 0
 100mA
-Text Notes 14400 6800 0    60   ~ 0
+Text Notes 14400 6550 0    60   ~ 0
 alternative 3.15V
-Text Notes 14400 6400 0    60   ~ 0
+Text Notes 14400 6150 0    60   ~ 0
 2.85V .. 3.3V
-Text Notes 12000 9000 0    60   ~ 0
+Text Notes 12000 8750 0    60   ~ 0
 1.8V
-Text Notes 12800 9000 0    60   ~ 0
+Text Notes 12800 8750 0    60   ~ 0
 100mA
-Text Notes 12000 9200 0    60   ~ 0
+Text Notes 12000 8950 0    60   ~ 0
 1.5V
-Text Notes 12800 9200 0    60   ~ 0
+Text Notes 12800 8950 0    60   ~ 0
 250mA
-Text Notes 12000 9400 0    60   ~ 0
+Text Notes 12000 9150 0    60   ~ 0
 3.3V
-Text Notes 12800 9400 0    60   ~ 0
+Text Notes 12800 9150 0    60   ~ 0
 100mA
-Text Notes 12000 9600 0    60   ~ 0
+Text Notes 12000 9350 0    60   ~ 0
 2.8V
-Text Notes 12800 9600 0    60   ~ 0
+Text Notes 12800 9350 0    60   ~ 0
 350mA
-Text Notes 12000 5800 0    60   ~ 0
+Text Notes 12000 5550 0    60   ~ 0
 5V
-Text Notes 12000 5600 0    60   ~ 0
+Text Notes 12000 5350 0    60   ~ 0
 1.35V
-Text Notes 13600 5400 0    60   ~ 0
+Text Notes 13600 5150 0    60   ~ 0
 PMIC
-Text Notes 13600 5600 0    60   ~ 0
+Text Notes 13600 5350 0    60   ~ 0
 PMIC
-Text Notes 13600 5800 0    60   ~ 0
+Text Notes 13600 5550 0    60   ~ 0
 PMIC
-Text Notes 12000 8200 0    60   ~ 0
+Text Notes 12000 7950 0    60   ~ 0
 1.35V
-Text Notes 13600 8200 0    60   ~ 0
+Text Notes 13600 7950 0    60   ~ 0
 SW3OUT
-Text Notes 12800 8200 0    60   ~ 0
+Text Notes 12800 7950 0    60   ~ 0
 1.5A
-Text Notes 12000 7000 0    60   ~ 0
+Text Notes 12000 6750 0    60   ~ 0
 3.3V
-Text Notes 13600 7000 0    60   ~ 0
+Text Notes 13600 6750 0    60   ~ 0
 VLDO3_3V3
-Text Notes 12800 7000 0    60   ~ 0
+Text Notes 12800 6750 0    60   ~ 0
 100mA
-Text Notes 12000 7200 0    60   ~ 0
+Text Notes 12000 6950 0    60   ~ 0
 1.8V
-Text Notes 12800 7200 0    60   ~ 0
+Text Notes 12800 6950 0    60   ~ 0
 100mA
-Text Notes 13600 7200 0    60   ~ 0
-VLDO1_1V8
-Text Notes 12000 7400 0    60   ~ 0
+Text Notes 12000 7150 0    60   ~ 0
 3.3V
-Text Notes 12800 7400 0    60   ~ 0
+Text Notes 12800 7150 0    60   ~ 0
 350mA
-Text Notes 13600 7400 0    60   ~ 0
+Text Notes 13600 7150 0    60   ~ 0
 V33
-Text Notes 13600 7600 0    60   ~ 0
+Text Notes 13600 7350 0    60   ~ 0
 PMIC
-Text Notes 14400 7800 0    60   ~ 0
+Text Notes 14400 7550 0    60   ~ 0
 small LDO for LiPo battery
-Text Notes 13600 7800 0    60   ~ 0
+Text Notes 13600 7550 0    60   ~ 0
 Battery
-Text Notes 12000 7800 0    60   ~ 0
+Text Notes 12000 7550 0    60   ~ 0
 1.8V .. 3V
-Text Notes 12800 7800 0    60   ~ 0
+Text Notes 12800 7550 0    60   ~ 0
 1mA
-Text Notes 14400 7600 0    60   ~ 0
+Text Notes 14400 7350 0    60   ~ 0
 NVCC_DRAM / 2
-Text Notes 12000 7600 0    60   ~ 0
+Text Notes 12000 7350 0    60   ~ 0
 0.675V
-Text Notes 12000 8000 0    60   ~ 0
+Text Notes 12000 7750 0    60   ~ 0
 -
-Text Notes 12800 8000 0    60   ~ 0
+Text Notes 12800 7750 0    60   ~ 0
 -
-Text Notes 13600 8000 0    60   ~ 0
+Text Notes 13600 7750 0    60   ~ 0
 -
-Text Notes 14400 8000 0    60   ~ 0
+Text Notes 14400 7750 0    60   ~ 0
 -
-Text Notes 12000 8400 0    60   ~ 0
+Text Notes 12000 8150 0    60   ~ 0
 4V
-Text Notes 12000 4800 0    60   ~ 0
+Text Notes 12000 4550 0    60   ~ 0
 +15V
-Text Notes 13600 8600 0    60   ~ 0
+Text Notes 13600 8350 0    60   ~ 0
 NVCC_3V3
-Text Notes 12000 8600 0    60   ~ 0
+Text Notes 12000 8350 0    60   ~ 0
 3.3V
-Text Notes 12800 8600 0    60   ~ 0
+Text Notes 12800 8350 0    60   ~ 0
 350mA
-Text Notes 13600 8800 0    60   ~ 0
+Text Notes 13600 8550 0    60   ~ 0
 NVCC_1V8
-Text Notes 12000 8800 0    60   ~ 0
+Text Notes 12000 8550 0    60   ~ 0
 1.8V
-Text Notes 12800 8800 0    60   ~ 0
+Text Notes 12800 8550 0    60   ~ 0
 100mA
-Text Notes 13600 9000 0    60   ~ 0
+Text Notes 13600 8750 0    60   ~ 0
 PMIC
-Text Notes 13600 9200 0    60   ~ 0
+Text Notes 13600 8950 0    60   ~ 0
 PMIC
-Text Notes 13600 9400 0    60   ~ 0
+Text Notes 13600 9150 0    60   ~ 0
 PMIC
-Text Notes 13600 9600 0    60   ~ 0
+Text Notes 13600 9350 0    60   ~ 0
 PMIC
-Text Notes 13600 8400 0    60   ~ 0
+Text Notes 13600 8150 0    60   ~ 0
 4V
 Text Notes 11550 1100 0    60   ~ 0
 +BATT_LIPO
@@ -934,6 +921,70 @@ Text Notes 13050 1400 0    60   ~ 0
 PMIC
 Text Notes 13050 1100 0    60   ~ 0
 +15V
+Text Notes 13050 1250 0    60   ~ 0
+VDD_SPK
+Text Notes 12450 1400 0    60   ~ 0
+VSNVS
+Text Notes 13750 1400 0    60   ~ 0
+SW1AOUT
+Text Notes 13750 1550 0    60   ~ 0
+SW1BOUT
+Text Notes 13750 1700 0    60   ~ 0
+SW2OUT
+Text Notes 13750 1850 0    60   ~ 0
+SW3OUT
+Text Notes 13700 2000 0    60   ~ 0
+SWBSTOUT
+Text Notes 14400 1400 0    60   ~ 0
+VDD_ARM_IN
+Text Notes 14400 1550 0    60   ~ 0
+VDD_SOC_IN
+Text Notes 13850 2150 0    60   ~ 0
+V33
+Text Notes 14400 2150 0    60   ~ 0
+NVCC_3V3
+Text Notes 14450 1700 0    60   ~ 0
+NVCC_1V8
+Text Notes 13600 6350 0    60   ~ 0
+SW2OUT
+Text Notes 13700 2300 0    60   ~ 0
+NVCC_SD1
+Text Notes 15150 2150 0    60   ~ 0
+NVCC_SD2
+Text Notes 15150 1850 0    60   ~ 0
+NVCC_SD3
+Text Notes 15200 2300 0    60   ~ 0
+MEM_3V3
+Text Notes 15150 1700 0    60   Italic 0
+NVCC_SD2
+Text Notes 15150 2450 0    60   ~ 0
++3.3VDAC
+Text Notes 15300 2000 0    60   ~ 0
+VDDA
+Text Notes 13700 2450 0    60   ~ 0
+VLDO1_1V8
+Text Notes 13700 2600 0    60   ~ 0
+VLDO2_1V5
+Text Notes 13700 2750 0    60   ~ 0
+VLDO3_3V3
+Text Notes 13700 2900 0    60   ~ 0
+VLDO4_2V8
+Text Notes 14400 5350 0    60   ~ 0
+RAM
+Text Notes 11200 9550 0    60   ~ 0
+NVCC_GPIO
+Text Notes 12000 9750 0    60   ~ 0
+5V
+Text Notes 12800 9550 0    60   ~ 0
+100mA
+Text Notes 14450 2000 0    60   ~ 0
+5V_VBUS
+Text Notes 14400 9350 0    60   ~ 0
+IO for A7 radio module
+Text Notes 15150 2600 0    60   Italic 0
+NVCC_SD2
+Text Notes 12600 800  0    99   ~ 20
+Power domain tree
 Wire Wire Line
 	1950 1850 3250 1850
 Wire Wire Line
@@ -1024,7 +1075,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 2500 7300 2600
 Wire Wire Line
-	6800 1250 6800 1700
+	6800 1150 6800 1700
 Connection ~ 6800 1650
 Wire Wire Line
 	8400 2050 8650 2050
@@ -1140,206 +1191,6 @@ Connection ~ 6800 1350
 Wire Wire Line
 	3500 5150 3500 5100
 Wire Notes Line
-	11150 3650 11150 9650
-Wire Notes Line
-	11150 3850 15950 3850
-Wire Notes Line
-	11150 3650 15950 3650
-Wire Notes Line
-	11950 3650 11950 9650
-Wire Notes Line
-	14350 9650 14350 3650
-Wire Notes Line
-	12750 9650 12750 3650
-Wire Notes Line
-	13550 9650 13550 3650
-Wire Notes Line
-	15950 3650 15950 9650
-Wire Notes Line
-	11150 4450 15950 4450
-Wire Notes Line
-	11150 4250 15950 4250
-Wire Notes Line
-	11150 4050 15950 4050
-Wire Notes Line
-	11950 3850 15150 3850
-Wire Notes Line
-	11950 4250 15150 4250
-Wire Notes Line
-	11950 4050 15150 4050
-Wire Notes Line
-	11950 4050 11950 4250
-Wire Notes Line
-	12750 4050 12750 4250
-Wire Notes Line
-	13550 4050 13550 4250
-Wire Notes Line
-	14350 4050 14350 4250
-Wire Notes Line
-	11150 4850 15950 4850
-Wire Notes Line
-	11150 4650 15950 4650
-Wire Notes Line
-	11950 4650 15150 4650
-Wire Notes Line
-	11950 4450 15150 4450
-Wire Notes Line
-	11950 4450 11950 4650
-Wire Notes Line
-	12750 4450 12750 4650
-Wire Notes Line
-	13550 4450 13550 4650
-Wire Notes Line
-	14350 4450 14350 4650
-Wire Notes Line
-	11150 5250 15950 5250
-Wire Notes Line
-	11150 5050 15950 5050
-Wire Notes Line
-	11950 5050 15150 5050
-Wire Notes Line
-	11950 4850 15150 4850
-Wire Notes Line
-	11950 4850 11950 5050
-Wire Notes Line
-	12750 4850 12750 5050
-Wire Notes Line
-	13550 4850 13550 5050
-Wire Notes Line
-	14350 4850 14350 5050
-Wire Notes Line
-	11150 5650 15950 5650
-Wire Notes Line
-	11150 5450 15950 5450
-Wire Notes Line
-	11950 5450 15150 5450
-Wire Notes Line
-	11950 5250 15150 5250
-Wire Notes Line
-	11950 5250 11950 5450
-Wire Notes Line
-	12750 5250 12750 5450
-Wire Notes Line
-	13550 5250 13550 5450
-Wire Notes Line
-	14350 5250 14350 5450
-Wire Notes Line
-	11150 6050 15950 6050
-Wire Notes Line
-	11150 5850 15950 5850
-Wire Notes Line
-	11950 5850 15150 5850
-Wire Notes Line
-	11950 5650 15150 5650
-Wire Notes Line
-	11950 5650 11950 5850
-Wire Notes Line
-	12750 5650 12750 5850
-Wire Notes Line
-	13550 5650 13550 5850
-Wire Notes Line
-	14350 5650 14350 5850
-Wire Notes Line
-	11150 6450 15950 6450
-Wire Notes Line
-	11150 6250 15950 6250
-Wire Notes Line
-	11950 6250 15150 6250
-Wire Notes Line
-	11950 6050 15150 6050
-Wire Notes Line
-	11950 6050 11950 6250
-Wire Notes Line
-	12750 6050 12750 6250
-Wire Notes Line
-	13550 6050 13550 6250
-Wire Notes Line
-	14350 6050 14350 6250
-Wire Notes Line
-	11150 6850 15950 6850
-Wire Notes Line
-	11150 6650 15950 6650
-Wire Notes Line
-	11950 6650 15150 6650
-Wire Notes Line
-	11950 6450 15150 6450
-Wire Notes Line
-	11950 6450 11950 6650
-Wire Notes Line
-	12750 6450 12750 6650
-Wire Notes Line
-	13550 6450 13550 6650
-Wire Notes Line
-	14350 6450 14350 6650
-Wire Notes Line
-	11150 7250 15950 7250
-Wire Notes Line
-	11150 7050 15950 7050
-Wire Notes Line
-	11950 7050 15150 7050
-Wire Notes Line
-	11950 6850 15150 6850
-Wire Notes Line
-	11950 6850 11950 7050
-Wire Notes Line
-	12750 6850 12750 7050
-Wire Notes Line
-	13550 6850 13550 7050
-Wire Notes Line
-	14350 6850 14350 7050
-Wire Notes Line
-	11150 7450 15950 7450
-Wire Notes Line
-	11150 7650 15950 7650
-Wire Notes Line
-	11950 7650 15150 7650
-Wire Notes Line
-	11950 7450 15150 7450
-Wire Notes Line
-	12750 7650 14350 7650
-Wire Notes Line
-	11150 8050 15950 8050
-Wire Notes Line
-	11150 7850 15950 7850
-Wire Notes Line
-	11950 7850 15150 7850
-Wire Notes Line
-	11950 7650 11950 7850
-Wire Notes Line
-	12750 7650 12750 7850
-Wire Notes Line
-	13550 7650 13550 7850
-Wire Notes Line
-	14350 7650 14350 7850
-Wire Notes Line
-	11150 8450 15950 8450
-Wire Notes Line
-	11150 8250 15950 8250
-Wire Notes Line
-	11950 8250 15150 8250
-Wire Notes Line
-	11950 8050 15150 8050
-Wire Notes Line
-	11950 8050 11950 8250
-Wire Notes Line
-	12750 8050 12750 8250
-Wire Notes Line
-	13550 8050 13550 8250
-Wire Notes Line
-	14350 8050 14350 8250
-Wire Notes Line
-	11150 8650 15950 8650
-Wire Notes Line
-	11150 8850 15950 8850
-Wire Notes Line
-	11150 9050 15950 9050
-Wire Notes Line
-	11150 9250 15950 9250
-Wire Notes Line
-	11150 9450 15950 9450
-Wire Notes Line
-	15950 9650 11150 9650
-Wire Notes Line
 	12100 1200 12400 1200
 Wire Notes Line
 	12400 1150 12400 1250
@@ -1381,10 +1232,6 @@ Wire Notes Line
 	13500 1400 13500 1300
 Wire Notes Line
 	13500 1300 13000 1300
-Text Notes 13050 1250 0    60   ~ 0
-VDD_SPK
-Text Notes 12450 1400 0    60   ~ 0
-VSNVS
 Wire Notes Line
 	12400 1300 12400 1400
 Wire Notes Line
@@ -1397,42 +1244,6 @@ Wire Notes Line
 	12300 1200 12300 1350
 Wire Notes Line
 	12300 1350 12400 1350
-Text Notes 13750 1400 0    60   ~ 0
-SW1AOUT
-Text Notes 13750 1550 0    60   ~ 0
-SW1BOUT
-Text Notes 13750 1700 0    60   ~ 0
-SW2OUT
-Text Notes 13750 1850 0    60   ~ 0
-SW3OUT
-Text Notes 13700 2000 0    60   ~ 0
-SWBSTOUT
-Text Notes 14400 1400 0    60   ~ 0
-VDD_ARM_IN
-Text Notes 14400 1550 0    60   ~ 0
-VDD_SOC_IN
-Text Notes 13850 2150 0    60   ~ 0
-V33
-Text Notes 14400 2150 0    60   ~ 0
-NVCC_3V3
-Text Notes 14450 1700 0    60   ~ 0
-NVCC_1V8
-Text Notes 13600 6600 0    60   ~ 0
-SW2OUT
-Text Notes 13700 2300 0    60   ~ 0
-NVCC_SD1
-Text Notes 15150 2150 0    60   ~ 0
-NVCC_SD2
-Text Notes 15150 1850 0    60   ~ 0
-NVCC_SD3
-Text Notes 15200 2300 0    60   ~ 0
-MEM_3V3
-Text Notes 15150 1700 0    60   Italic 0
-NVCC_SD2
-Text Notes 15150 2450 0    60   ~ 0
-+3.3VDAC
-Text Notes 15300 2000 0    60   ~ 0
-VDDA
 Wire Notes Line
 	13500 1350 13700 1350
 Wire Notes Line
@@ -1543,14 +1354,6 @@ Wire Notes Line
 	14200 2900 14200 2800
 Wire Notes Line
 	14200 2800 13700 2800
-Text Notes 13700 2450 0    60   ~ 0
-VLDO1_1V8
-Text Notes 13700 2600 0    60   ~ 0
-VLDO2_1V5
-Text Notes 13700 2750 0    60   ~ 0
-VLDO3_3V3
-Text Notes 13700 2900 0    60   ~ 0
-VLDO4_2V8
 Wire Notes Line
 	13600 1350 13600 2850
 Wire Notes Line
@@ -1601,32 +1404,6 @@ Wire Notes Line
 	15650 2000 15650 1900
 Wire Notes Line
 	15650 1900 15150 1900
-Text Notes 14400 5600 0    60   ~ 0
-RAM
-Text Notes 11200 9800 0    60   ~ 0
-5V_VBUS
-Text Notes 12000 9800 0    60   ~ 0
-5V
-Text Notes 12800 9800 0    60   ~ 0
-600mA
-Wire Notes Line
-	11150 3850 11150 9850
-Wire Notes Line
-	11950 3850 11950 9850
-Wire Notes Line
-	14350 9850 14350 3850
-Wire Notes Line
-	12750 9850 12750 3850
-Wire Notes Line
-	13550 9850 13550 3850
-Wire Notes Line
-	15950 3850 15950 9850
-Wire Notes Line
-	15950 9850 11150 9850
-Text Notes 13600 9800 0    60   ~ 0
-SWBSTOUT
-Text Notes 14450 2000 0    60   ~ 0
-5V_VBUS
 Wire Notes Line
 	14200 1950 14400 1950
 Wire Notes Line
@@ -1677,8 +1454,6 @@ Wire Notes Line
 	15650 2450 15650 2350
 Wire Notes Line
 	15650 2350 15150 2350
-Text Notes 14400 9600 0    60   ~ 0
-IO for A7 radio module
 Wire Notes Line
 	14950 1650 15150 1650
 Wire Notes Line
@@ -1695,8 +1470,6 @@ Wire Notes Line
 	15050 1950 15050 1650
 Wire Notes Line
 	15050 2100 15050 2550
-Text Notes 15150 2600 0    60   Italic 0
-NVCC_SD2
 Wire Notes Line
 	15050 2550 15150 2550
 Wire Notes Line
@@ -1727,6 +1500,121 @@ Wire Notes Line
 	12200 1050 12100 1050
 Wire Notes Line
 	12200 1050 12200 1200
-Text Notes 12600 800  0    99   ~ 20
-Power domain tree
+Wire Notes Line
+	11150 3400 15950 3400
+Wire Notes Line
+	15950 3400 15950 9800
+Wire Notes Line
+	15950 9800 11150 9800
+Wire Notes Line
+	11150 9800 11150 3400
+Wire Notes Line
+	11150 3600 15950 3600
+Wire Notes Line
+	11150 3800 15950 3800
+Wire Notes Line
+	11150 4000 15950 4000
+Wire Notes Line
+	11150 4200 15950 4200
+Wire Notes Line
+	15950 4400 11150 4400
+Wire Notes Line
+	11150 4600 15950 4600
+Wire Notes Line
+	15950 4800 11150 4800
+Wire Notes Line
+	11150 5000 15950 5000
+Wire Notes Line
+	15950 5200 11150 5200
+Wire Notes Line
+	11150 5400 15950 5400
+Wire Notes Line
+	11150 5600 15950 5600
+Wire Notes Line
+	15950 5800 11150 5800
+Wire Notes Line
+	11150 6000 15950 6000
+Wire Notes Line
+	15950 6200 11150 6200
+Wire Notes Line
+	11150 6400 15950 6400
+Wire Notes Line
+	15950 6600 11150 6600
+Wire Notes Line
+	11150 6800 15950 6800
+Wire Notes Line
+	11150 7000 15950 7000
+Wire Notes Line
+	15950 7200 11150 7200
+Wire Notes Line
+	11150 7400 15950 7400
+Wire Notes Line
+	15950 7600 11150 7600
+Wire Notes Line
+	11150 7800 15950 7800
+Wire Notes Line
+	15950 8000 11150 8000
+Wire Notes Line
+	11150 8200 15950 8200
+Wire Notes Line
+	15950 8400 11150 8400
+Wire Notes Line
+	11150 8600 15950 8600
+Wire Notes Line
+	11150 8800 15950 8800
+Wire Notes Line
+	11150 9000 15950 9000
+Wire Notes Line
+	15950 9200 11150 9200
+Wire Notes Line
+	11150 9400 15950 9400
+Wire Notes Line
+	11950 3400 11950 9800
+Wire Notes Line
+	12750 9800 12750 3400
+Wire Notes Line
+	13550 3400 13550 9800
+Wire Notes Line
+	14350 9800 14350 3400
+$Comp
+L +BATT_LIPO #PWR?
+U 1 1 595ADB08
+P 6800 1150
+F 0 "#PWR?" H 6800 1000 50  0001 C CNN
+F 1 "+BATT_LIPO" H 6800 1290 50  0000 C CNN
+F 2 "" H 6800 1150 50  0000 C CNN
+F 3 "" H 6800 1150 50  0000 C CNN
+	1    6800 1150
+	1    0    0    -1  
+$EndComp
+Text Notes 14400 2750 0    60   ~ 0
+NVCC_GPIO
+Wire Notes Line
+	14200 2700 14400 2700
+Wire Notes Line
+	14400 2650 14400 2750
+Wire Notes Line
+	14400 2750 14900 2750
+Wire Notes Line
+	14900 2750 14900 2650
+Wire Notes Line
+	14900 2650 14400 2650
+Text Notes 11200 9750 0    60   ~ 0
+5V_VBUS
+Wire Notes Line
+	11150 9600 15950 9600
+Text Notes 12000 9550 0    60   ~ 0
+3.3V
+Text Notes 12800 9750 0    60   ~ 0
+600mA
+Text Notes 13600 9750 0    60   ~ 0
+SWBSTOUT
+Text Notes 13600 9550 0    60   ~ 0
+VLDO3_3V3
+Text Notes 14400 9150 0    60   ~ 0
+IO for GPIO and JTAG
+Text Notes 14400 8950 0    60   ~ 0
+not used
+Text Notes 13600 6950 0    60   ~ 0
+NVCC_1V8
 $EndSCHEMATC
