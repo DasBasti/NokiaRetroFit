@@ -64,7 +64,7 @@ LIBS:valves
 LIBS:3210retro-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 7 13
 Title "Nokia 3210 Retrofit"
