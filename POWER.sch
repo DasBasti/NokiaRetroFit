@@ -644,17 +644,6 @@ F 3 "" H 4200 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BQ24400 U?
-U 1 1 59571401
-P 4200 6900
-F 0 "U?" H 4350 7150 60  0000 C CNN
-F 1 "BQ24400" H 4200 6650 60  0000 C CNN
-F 2 "" H 4200 6900 60  0001 C CNN
-F 3 "" H 4200 6900 60  0001 C CNN
-	1    4200 6900
-	1    0    0    -1  
-$EndComp
-$Comp
 L +BATT_NIMH #PWR?
 U 1 1 5956BDA6
 P 3500 5100
@@ -911,9 +900,9 @@ Text Notes 13600 9350 0    60   ~ 0
 PMIC
 Text Notes 13600 8150 0    60   ~ 0
 4V
-Text Notes 11550 1100 0    60   ~ 0
+Text Notes 11550 1350 0    60   ~ 0
 +BATT_LIPO
-Text Notes 11550 1250 0    60   ~ 0
+Text Notes 11550 1150 0    60   ~ 0
 +BATT_NIMH
 Text Notes 12450 1250 0    60   ~ 0
 4V_BST
@@ -981,8 +970,6 @@ Text Notes 14450 2000 0    60   ~ 0
 5V_VBUS
 Text Notes 14400 9350 0    60   ~ 0
 IO for A7 radio module
-Text Notes 15150 2600 0    60   Italic 0
-NVCC_SD2
 Text Notes 12600 800  0    99   ~ 20
 Power domain tree
 Wire Wire Line
@@ -1191,7 +1178,7 @@ Connection ~ 6800 1350
 Wire Wire Line
 	3500 5150 3500 5100
 Wire Notes Line
-	12100 1200 12400 1200
+	12200 1200 12400 1200
 Wire Notes Line
 	12400 1150 12400 1250
 Wire Notes Line
@@ -1205,7 +1192,7 @@ Wire Notes Line
 Wire Notes Line
 	13000 1050 12900 1050
 Wire Notes Line
-	12900 1050 12900 1350
+	12900 1050 12900 1650
 Wire Notes Line
 	12900 1350 13000 1350
 Wire Notes Line
@@ -1469,37 +1456,25 @@ Wire Notes Line
 Wire Notes Line
 	15050 1950 15050 1650
 Wire Notes Line
-	15050 2100 15050 2550
+	11550 1350 12100 1350
 Wire Notes Line
-	15050 2550 15150 2550
+	12100 1350 12100 1250
 Wire Notes Line
-	15150 2500 15150 2600
+	12100 1250 11550 1250
 Wire Notes Line
-	15150 2600 15650 2600
+	11550 1250 11550 1350
 Wire Notes Line
-	15650 2600 15650 2500
+	11550 1050 11550 1150
 Wire Notes Line
-	15650 2500 15150 2500
+	11550 1150 12100 1150
 Wire Notes Line
-	11550 1100 12100 1100
+	12100 1150 12100 1050
 Wire Notes Line
-	12100 1100 12100 1000
+	12100 1050 11550 1050
 Wire Notes Line
-	12100 1000 11550 1000
+	12200 1200 12100 1300
 Wire Notes Line
-	11550 1000 11550 1100
-Wire Notes Line
-	11550 1150 11550 1250
-Wire Notes Line
-	11550 1250 12100 1250
-Wire Notes Line
-	12100 1250 12100 1150
-Wire Notes Line
-	12100 1150 11550 1150
-Wire Notes Line
-	12200 1050 12100 1050
-Wire Notes Line
-	12200 1050 12200 1200
+	12100 1100 12200 1200
 Wire Notes Line
 	11150 3400 15950 3400
 Wire Notes Line
@@ -1617,4 +1592,73 @@ Text Notes 14400 8950 0    60   ~ 0
 not used
 Text Notes 13600 6950 0    60   ~ 0
 NVCC_1V8
+Text Notes 13050 1550 0    60   ~ 0
+RADIO
+Wire Notes Line
+	13000 1500 12900 1500
+Wire Notes Line
+	13000 1450 13000 1550
+Wire Notes Line
+	13000 1550 13500 1550
+Wire Notes Line
+	13500 1550 13500 1450
+Wire Notes Line
+	13500 1450 13000 1450
+Text Notes 13050 1700 0    60   ~ 0
+RUMBLE
+Wire Notes Line
+	12900 1650 13000 1650
+Wire Notes Line
+	13000 1600 13000 1700
+Wire Notes Line
+	13000 1700 13500 1700
+Wire Notes Line
+	13500 1700 13500 1600
+Wire Notes Line
+	13500 1600 13000 1600
+Wire Notes Line
+	15050 2100 15050 2400
+Text Notes 12800 8150 0    60   ~ 0
+?
+$Comp
+L BQ24400 U?
+U 1 1 595CC806
+P 4200 7900
+F 0 "U?" H 4450 8350 60  0000 C CNN
+F 1 "BQ24400" H 4200 7950 60  0000 C CNN
+F 2 "" H 4850 7850 60  0001 C CNN
+F 3 "" H 4850 7850 60  0001 C CNN
+	1    4200 7900
+	1    0    0    -1  
+$EndComp
+Text Notes 4750 7650 0    60   ~ 0
+V @ BAT needs to be 2V .. 0.95V
+Text Notes 4750 8350 0    60   ~ 0
+50mV max\n-50mV min
+Text Notes 3650 7600 2    60   ~ 0
+7Vmax
+Text Notes 4750 7950 0    60   ~ 0
+lt fault at 2.5V\nht fault at 1.25V\ncutoff at 1.125V\n
+$Comp
+L GND #PWR?
+U 1 1 595CEE09
+P 4200 8500
+F 0 "#PWR?" H 4200 8250 50  0001 C CNN
+F 1 "GND" H 4200 8350 50  0000 C CNN
+F 2 "" H 4200 8500 50  0000 C CNN
+F 3 "" H 4200 8500 50  0000 C CNN
+	1    4200 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR?
+U 1 1 595CF102
+P 4850 8700
+F 0 "#PWR?" H 4850 8450 50  0001 C CNN
+F 1 "GNDREF" H 4850 8550 50  0000 C CNN
+F 2 "" H 4850 8700 50  0000 C CNN
+F 3 "" H 4850 8700 50  0000 C CNN
+	1    4850 8700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
