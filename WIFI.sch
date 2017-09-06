@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:3210retro-rescue
 LIBS:a7
 LIBS:ft232rl
 LIBS:max1555
@@ -61,12 +62,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:stm32
 LIBS:3210retro-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 13
+Sheet 6 10
 Title "Nokia 3210 Retrofit"
 Date "2017-06-15"
 Rev "2"

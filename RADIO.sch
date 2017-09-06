@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:3210retro-rescue
 LIBS:a7
 LIBS:ft232rl
 LIBS:max1555
@@ -61,12 +62,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:stm32
 LIBS:3210retro-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 13
+Sheet 5 10
 Title "Nokia 3210 Retrofit"
 Date "2017-06-15"
 Rev "2"
@@ -92,17 +94,17 @@ F 3 "" H 9450 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 6950 4000 6950
+	2950 6950 4000 6950
 Wire Wire Line
-	2400 6850 4000 6850
+	2950 6850 4000 6850
 Wire Wire Line
-	2400 4400 4000 4400
+	2950 4400 4000 4400
 Wire Wire Line
-	2400 5750 4000 5750
+	2950 5750 4000 5750
 Wire Wire Line
-	2400 5650 4000 5650
+	2950 5650 4000 5650
 Wire Wire Line
-	2400 4500 4000 4500
+	2950 4500 4000 4500
 Text HLabel 8050 4350 0    60   Input ~ 0
 ON
 Text HLabel 8050 4450 0    60   Input ~ 0
@@ -564,46 +566,16 @@ Wire Wire Line
 	7500 3550 7500 4550
 Wire Wire Line
 	7500 4550 8850 4550
-Text HLabel 1950 4100 0    60   BiDi ~ 0
-AT_UART[0..3]
-Entry Wire Line
-	2300 4300 2400 4400
-Entry Wire Line
-	2300 5650 2400 5750
-Entry Wire Line
-	2300 5550 2400 5650
-Entry Wire Line
-	2300 4400 2400 4500
-Wire Bus Line
-	2300 4100 2300 5650
-Wire Bus Line
-	2300 4100 1950 4100
-Text Label 2400 4400 0    60   ~ 0
-AT_UART2
-Text Label 2400 4500 0    60   ~ 0
-AT_UART3
-Text Label 2400 5650 0    60   ~ 0
-AT_UART1
-Text Label 2400 5750 0    60   ~ 0
-AT_UART0
-Entry Wire Line
-	2300 6850 2400 6950
-Entry Wire Line
-	2300 6750 2400 6850
-Text Label 2400 6850 0    60   ~ 0
-HST_DL0
-Text Label 2400 6950 0    60   ~ 0
-HST_DL1
-Wire Bus Line
-	2300 6600 2300 6850
-Wire Bus Line
-	2300 6600 2100 6600
-Text HLabel 2100 6600 0    60   BiDi ~ 0
-HST_DL[0..1]
+Text Label 3100 6850 0    60   ~ 0
+HST_RX
+Text Label 3100 6950 0    60   ~ 0
+HST_TX
 $Comp
-L MMBF170 Q501
+L MMBF170-RESCUE-3210retro Q501
 U 1 1 5942BF1F
 P 6950 3900
+AR Path="/5942BF1F" Ref="Q501"  Part="1" 
+AR Path="/5805F481/5942BF1F" Ref="Q501"  Part="1" 
 F 0 "Q501" H 7150 3975 50  0000 L CNN
 F 1 "MMBF170" H 7150 3900 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 7150 3825 50  0000 L CIN
@@ -766,13 +738,13 @@ Wire Wire Line
 	5500 4500 5500 4950
 Wire Wire Line
 	5600 4850 5600 4400
-Text Label 3100 4400 0    60   ~ 0
-AT_UART_CTS
 Text Label 3100 4500 0    60   ~ 0
+AT_UART_CTS
+Text Label 3100 4400 0    60   ~ 0
 AT_UART_RTS
-Text Label 3100 5650 0    60   ~ 0
-AT_UART_RX
 Text Label 3100 5750 0    60   ~ 0
+AT_UART_RX
+Text Label 3100 5650 0    60   ~ 0
 AT_UART_TX
 $Comp
 L SN74AVC2T244 U503
@@ -964,4 +936,16 @@ F 3 "" H 5100 4100 50  0001 C CNN
 	1    5100 4100
 	1    0    0    -1  
 $EndComp
+Text HLabel 2950 4500 0    60   Output ~ 0
+AT_UART_CTS
+Text HLabel 2950 4400 0    60   Input ~ 0
+AT_UART_RTS
+Text HLabel 2950 5750 0    60   Input ~ 0
+AT_UART_RX
+Text HLabel 2950 5650 0    60   Output ~ 0
+AT_UART_TX
+Text HLabel 2950 6850 0    60   Input ~ 0
+HST_RX
+Text HLabel 2950 6950 0    60   Output ~ 0
+HST_TX
 $EndSCHEMATC
