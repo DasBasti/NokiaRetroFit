@@ -1,4 +1,4 @@
-update=Mi 06 Sep 2017 21:01:12 CEST
+update=Thu 07 Sep 2017 23:21:03 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=std.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -105,4 +95,16 @@ LibName63=atmel
 LibName64=contrib
 LibName65=valves
 LibName66=lib_sch/stm32
+LibName67=lib_sch/tps62742
+LibName68=lib_sch/WM8994ECS
+[schematic_editor]
+version=1
+PageLayoutDescrFile=std.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 
