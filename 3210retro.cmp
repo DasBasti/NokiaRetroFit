@@ -1,0 +1,1595 @@
+Cmp-Mod V01 Created by PcbNew   date = Fr 08 Sep 2017 23:04:00 CEST
+
+BeginCmp
+TimeStamp = 59B38964
+Path = /5805F4B1/588B7558
+Reference = U404;
+ValeurCmp = MP34DT01TR;
+IdModule  = NokiaRetroFit:MP34DT01;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3896E
+Path = /5805F4B1/588B74FB
+Reference = U405;
+ValeurCmp = MP34DT01TR;
+IdModule  = NokiaRetroFit:MP34DT01;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388B9
+Path = /5805F47D/593F827A
+Reference = R807;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BBC25E
+Path = /5805F4B1/59B61FC2
+Reference = U403;
+ValeurCmp = WM8994ECS/R;
+IdModule  = NokiaRetroFit:WM8994ECS_SPECIAL;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B389A1
+Path = /5805F481/5805F4D3
+Reference = U504;
+ValeurCmp = A7;
+IdModule  = NokiaRetroFit:A7;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B309D3
+Path = /5805F4BA/5807C586
+Reference = SW701;
+ValeurCmp = SW_PUSH;
+IdModule  = NokiaRetroFit:TS-015A;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B389B9
+Path = /59B32194/5942F947
+Reference = U1301;
+ValeurCmp = LSM9DS1;
+IdModule  = Housings_LGA:LGA-24L_3x3.5mm_Pitch0.43mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3893D
+Path = /5805F4C1/58B7B6EA
+Reference = U301;
+ValeurCmp = TPS61041DBV;
+IdModule  = Housings_DFN_QFN:DFN-6-1EP_2x2mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 585D2DE7
+Path = /5805F4BA/5962C7F0
+Reference = D701;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 585D2DED
+Path = /5805F4BA/5962C95B
+Reference = D702;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 585D2DF3
+Path = /5805F4BA/5962C9E4
+Reference = D703;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 585D2DF9
+Path = /5805F4BA/5962CA9C
+Reference = D704;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 585D2DFF
+Path = /5805F4BA/5962CB2D
+Reference = D705;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 585D2E05
+Path = /5805F4BA/5962CBED
+Reference = D706;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 585D605A
+Path = /580EBF81
+Reference = P109;
+ValeurCmp = RUMBLE;
+IdModule  = buttons:Rumble_Pads;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8917
+Path = /594309F1
+Reference = P101;
+ValeurCmp = USB_OTG;
+IdModule  = Connect:USB_Micro-B_10103594-0001LF;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F892D
+Path = /5805F4C1/588CFE48
+Reference = P301;
+ValeurCmp = SEPS525;
+IdModule  = NokiaRetroFit:FFC-05-35;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8BFF
+Path = /5805F4BA/5807974B
+Reference = SW702;
+ValeurCmp = C;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C07
+Path = /5805F4BA/58079996
+Reference = SW703;
+ValeurCmp = 1;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C0F
+Path = /5805F4BA/58079B23
+Reference = SW704;
+ValeurCmp = 4ghi;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C17
+Path = /5805F4BA/58079B97
+Reference = SW705;
+ValeurCmp = 7pqrs;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C1F
+Path = /5805F4BA/58079829
+Reference = SW706;
+ValeurCmp = -;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C27
+Path = /5805F4BA/5807999C
+Reference = SW707;
+ValeurCmp = 2abc;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C2F
+Path = /5805F4BA/58079B29
+Reference = SW708;
+ValeurCmp = 5jkl;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C37
+Path = /5805F4BA/58079B9D
+Reference = SW709;
+ValeurCmp = 8tuv;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C3F
+Path = /5805F4BA/5807984F
+Reference = SW710;
+ValeurCmp = UP;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C47
+Path = /5805F4BA/580799A2
+Reference = SW711;
+ValeurCmp = 3def;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C4F
+Path = /5805F4BA/58079B2F
+Reference = SW712;
+ValeurCmp = 6mno;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C57
+Path = /5805F4BA/58079BA3
+Reference = SW713;
+ValeurCmp = 9wxyz;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C5F
+Path = /5805F4BA/58079D0D
+Reference = SW714;
+ValeurCmp = *+;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C67
+Path = /5805F4BA/5807987E
+Reference = SW715;
+ValeurCmp = DOWN;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C6F
+Path = /5805F4BA/58079D13
+Reference = SW716;
+ValeurCmp = 0space;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8C77
+Path = /5805F4BA/58079D19
+Reference = SW717;
+ValeurCmp = #up;
+IdModule  = NokiaRetroFit:Foil_Button;
+EndCmp
+
+BeginCmp
+TimeStamp = 596F8D67
+Path = /580EAE94/584B36FB
+Reference = U601;
+ValeurCmp = ESP-12E;
+IdModule  = NokiaRetroFit:ESP-12E;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B303EC
+Path = /5805F4C1/59B0F53D
+Reference = C306;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B303FB
+Path = /5805F4C1/59B0F6EB
+Reference = C307;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B30669
+Path = /5805F47D/59B2538B
+Reference = J801;
+ValeurCmp = TEST_2P;
+IdModule  = Wire_Pads:SolderWirePad_2x_1mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B30698
+Path = /59B2CA3C/5944B602
+Reference = J1101;
+ValeurCmp = MICRO_SD_HINGE;
+IdModule  = Connectors:microSD_Card_Receptacle_Wuerth_693072010801;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B309E5
+Path = /59B45449
+Reference = TP101;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B30A11
+Path = /5805F47D/584A71C7
+Reference = Y801;
+ValeurCmp = 32kHz;
+IdModule  = Crystals:Crystal_SMD_SeikoEpson_MC146-4pin_6.7x1.5mm_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B30A29
+Path = /5805F47D/584A70A2
+Reference = Y802;
+ValeurCmp = 24MHz;
+IdModule  = Crystals:Crystal_SMD_SeikoEpson_MC146-4pin_6.7x1.5mm_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38154
+Path = /5805F477/59569D0A
+Reference = C202;
+ValeurCmp = 10u;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38165
+Path = /5805F477/5861CBB6
+Reference = C203;
+ValeurCmp = 10u;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38174
+Path = /5805F477/580C6427
+Reference = C204;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38183
+Path = /5805F477/59569D18
+Reference = C206;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38192
+Path = /5805F477/580C504C
+Reference = C207;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B381A1
+Path = /5805F477/59569D1E
+Reference = C209;
+ValeurCmp = 1n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B381B0
+Path = /5805F477/580C50B3
+Reference = C210;
+ValeurCmp = 1n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B381BF
+Path = /5805F477/580D3430
+Reference = C215;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B381CE
+Path = /5805F477/580D3A62
+Reference = C219;
+ValeurCmp = 22p;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B381DD
+Path = /5805F477/585E728C
+Reference = C220;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B381EC
+Path = /5805F4C1/59B0FC7E
+Reference = C301;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B381FB
+Path = /5805F4C1/59B0FC84
+Reference = C302;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3820A
+Path = /5805F4C1/58B7BACA
+Reference = C303;
+ValeurCmp = 4u7C;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38219
+Path = /5805F4C1/58B7C1F7
+Reference = C304;
+ValeurCmp = 10p;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38228
+Path = /5805F4C1/58B7C3DD
+Reference = C305;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38237
+Path = /5805F4B1/59B6537F
+Reference = C401;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38246
+Path = /5805F4B1/588C3DD7
+Reference = C402;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38255
+Path = /5805F4B1/59B652F3
+Reference = C403;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38264
+Path = /5805F4B1/59B6520B
+Reference = C404;
+ValeurCmp = 4u7;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38273
+Path = /5805F4B1/59B7555B
+Reference = C405;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38282
+Path = /5805F4B1/59B6507D
+Reference = C406;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38291
+Path = /5805F4B1/588C44B7
+Reference = C407;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B382A0
+Path = /5805F4B1/59B64BFD
+Reference = C408;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B382AF
+Path = /5805F4B1/59B64A48
+Reference = C409;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B382BE
+Path = /5805F4B1/59B6492C
+Reference = C410;
+ValeurCmp = 4u7;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B382CD
+Path = /5805F4B1/59B64F33
+Reference = C411;
+ValeurCmp = 4u7;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B382DC
+Path = /5805F4B1/59B6486B
+Reference = C412;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B382EB
+Path = /5805F4B1/59B63B93
+Reference = C413;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B382FA
+Path = /5805F4B1/59B6DBEB
+Reference = C414;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38309
+Path = /5805F4B1/59B6DB51
+Reference = C415;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38318
+Path = /5805F4B1/59B6BB74
+Reference = C416;
+ValeurCmp = 4u7;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38327
+Path = /5805F4B1/59B6D1BD
+Reference = C417;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38336
+Path = /5805F4B1/59B6CBAB
+Reference = C418;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38345
+Path = /5805F4B1/59B6BCE5
+Reference = C419;
+ValeurCmp = 4u7;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38354
+Path = /5805F4B1/59B6CE44
+Reference = C420;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38363
+Path = /5805F481/58063EE2
+Reference = C501;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38374
+Path = /5805F481/58063E33
+Reference = C502;
+ValeurCmp = 470u;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38383
+Path = /5805F481/58065AFE
+Reference = C503;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38392
+Path = /5805F481/580614DA
+Reference = C504;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B383A1
+Path = /5805F481/58060CCC
+Reference = C505;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B383B0
+Path = /5805F481/580614E0
+Reference = C506;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B383BF
+Path = /5805F481/58060D2B
+Reference = C507;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B383CE
+Path = /580EAE94/594340D2
+Reference = C601;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B383DD
+Path = /5805F47D/584A7C50
+Reference = C801;
+ValeurCmp = 22p;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B383EC
+Path = /5805F47D/584A7B9A
+Reference = C802;
+ValeurCmp = 22p;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B383FB
+Path = /5805F47D/584A7AF5
+Reference = C803;
+ValeurCmp = 22p;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3840A
+Path = /5805F47D/584A7A04
+Reference = C804;
+ValeurCmp = 22p;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38419
+Path = /5805F47D/59B25915
+Reference = C805;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38428
+Path = /5805F47D/59B21115
+Reference = C806;
+ValeurCmp = 2u2;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38437
+Path = /5805F47D/59B211BB
+Reference = C807;
+ValeurCmp = 2u2;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38446
+Path = /5805F47D/59B281E1
+Reference = C808;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38455
+Path = /5805F47D/59B20FBA
+Reference = C809;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38464
+Path = /5805F47D/59B20FB4
+Reference = C810;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38473
+Path = /5805F47D/59B20CA7
+Reference = C811;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38482
+Path = /5805F47D/59B20AFB
+Reference = C812;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38491
+Path = /5805F47D/59B21E85
+Reference = C813;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B384A0
+Path = /5805F47D/59B21E7F
+Reference = C814;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B384AF
+Path = /5805F47D/59B21E79
+Reference = C815;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B384BE
+Path = /59B32194/594304C7
+Reference = C1308;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B384CD
+Path = /59B32194/59430293
+Reference = C1309;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B384D7
+Path = /5805F4B1/588B954C
+Reference = FB402;
+ValeurCmp = FILTER;
+IdModule  = Choke_SMD:Choke_SMD_1206_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B384E1
+Path = /5805F477/580D2F27
+Reference = L201;
+ValeurCmp = 4u7 / 3A;
+IdModule  = Choke_SMD:Choke_SMD_1206_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B384EB
+Path = /5805F477/59B4D79C
+Reference = L202;
+ValeurCmp = 2u2;
+IdModule  = Choke_SMD:Choke_SMD_1206_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B384F5
+Path = /5805F4C1/58B7B817
+Reference = L303;
+ValeurCmp = 18u;
+IdModule  = Choke_SMD:Choke_SMD_1206_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3851A
+Path = /5805F47D/584E90CF
+Reference = P801;
+ValeurCmp = JTAG;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3852F
+Path = /5805F481/5942BF1F
+Reference = Q501;
+ValeurCmp = MMBF170;
+IdModule  = TO_SOT_Packages_SMD:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38544
+Path = /5805F4BA/5942422F
+Reference = Q701;
+ValeurCmp = MMBF170;
+IdModule  = TO_SOT_Packages_SMD:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38553
+Path = /5943206D
+Reference = R101;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38562
+Path = /5805F477/580D7380
+Reference = R201;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38571
+Path = /5805F477/580D7386
+Reference = R202;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38580
+Path = /5805F477/580C76C3
+Reference = R203;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3858F
+Path = /5805F477/580C7723
+Reference = R204;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3859E
+Path = /5805F477/59B4FB50
+Reference = R205;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B385AD
+Path = /5805F477/59B4FD15
+Reference = R206;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B385BC
+Path = /5805F477/580C799E
+Reference = R207;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B385CB
+Path = /5805F477/580C79A4
+Reference = R208;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B385DA
+Path = /5805F477/59B4FD6D
+Reference = R209;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B385E9
+Path = /5805F477/59B4FDC7
+Reference = R210;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B385F8
+Path = /5805F477/59B4F205
+Reference = R211;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38607
+Path = /5805F477/59B4F1B3
+Reference = R212;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38616
+Path = /5805F477/59B4F163
+Reference = R213;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38625
+Path = /5805F477/59B4ED2C
+Reference = R214;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38634
+Path = /5805F477/59B4DA5F
+Reference = R215;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38643
+Path = /5805F477/580D38A4
+Reference = R217;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38652
+Path = /5805F477/580D3905
+Reference = R218;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38661
+Path = /5805F4C1/58B7BECC
+Reference = R301;
+ValeurCmp = 2M2;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38670
+Path = /5805F4C1/58B7BF51
+Reference = R302;
+ValeurCmp = 162k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3867F
+Path = /5805F4C1/58B77B66
+Reference = R303;
+ValeurCmp = 68k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3868E
+Path = /5805F4C1/58B771C7
+Reference = R304;
+ValeurCmp = 5k1;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3869D
+Path = /5805F4C1/59B0E95B
+Reference = R305;
+ValeurCmp = 560;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B386AC
+Path = /5805F4C1/59B0E961
+Reference = R306;
+ValeurCmp = 560;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B386BB
+Path = /5805F4C1/59B0E980
+Reference = R307;
+ValeurCmp = 560;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B386CA
+Path = /5805F4C1/59B0E279
+Reference = R308;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B386D9
+Path = /5805F4C1/59B0EDB1
+Reference = R309;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B386E8
+Path = /5805F4C1/58B7E4C6
+Reference = R310;
+ValeurCmp = 560;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B386F7
+Path = /5805F4C1/58B7E526
+Reference = R311;
+ValeurCmp = 560;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38706
+Path = /5805F4C1/59B0E38A
+Reference = R312;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38715
+Path = /5805F4C1/59B0EDB7
+Reference = R313;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38724
+Path = /5805F4C1/59B0F042
+Reference = R314;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38733
+Path = /5805F4C1/58B768CD
+Reference = R323;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38742
+Path = /5805F4B1/588C1814
+Reference = R401;
+ValeurCmp = 50k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38751
+Path = /5805F4B1/588C4460
+Reference = R402;
+ValeurCmp = 50k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38760
+Path = /5805F4B1/59B63459
+Reference = R403;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3876F
+Path = /5805F4B1/59B6CF9B
+Reference = R404;
+ValeurCmp = 20;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3877E
+Path = /5805F4B1/59B6D033
+Reference = R405;
+ValeurCmp = 20;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3878D
+Path = /5805F481/5805FB29
+Reference = R501;
+ValeurCmp = 22;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3879C
+Path = /5805F481/5805FDA3
+Reference = R502;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B387AB
+Path = /5805F481/580614D4
+Reference = R503;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B387BA
+Path = /5805F481/580601C3
+Reference = R504;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B387C9
+Path = /5805F481/58066302
+Reference = R505;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B387D8
+Path = /580EAE94/584B3B04
+Reference = R601;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B387E7
+Path = /5805F4BA/5807C9B7
+Reference = R701;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B387F6
+Path = /5805F4BA/5807E47A
+Reference = R702;
+ValeurCmp = 280;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38805
+Path = /5805F4BA/5807E634
+Reference = R703;
+ValeurCmp = 280;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38814
+Path = /5805F4BA/5807E6A0
+Reference = R704;
+ValeurCmp = 280;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38823
+Path = /5805F4BA/5807E785
+Reference = R705;
+ValeurCmp = 280;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38832
+Path = /5805F4BA/5807E78B
+Reference = R706;
+ValeurCmp = 280;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38841
+Path = /5805F4BA/594243DC
+Reference = R707;
+ValeurCmp = 280;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38850
+Path = /5805F4BA/5807E791
+Reference = R708;
+ValeurCmp = 280;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3885F
+Path = /5805F47D/584E9270
+Reference = R801;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3886E
+Path = /5805F47D/59B24A9F
+Reference = R802;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3887D
+Path = /5805F47D/59B27DE9
+Reference = R803;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3888C
+Path = /5805F47D/593F815B
+Reference = R804;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3889B
+Path = /5805F47D/593F8210
+Reference = R805;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388AA
+Path = /5805F47D/593F7DEF
+Reference = R806;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_0402_NoSilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388BE
+Path = /5805F477/585B0F26
+Reference = TP201;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388C3
+Path = /5805F477/585B1CC3
+Reference = TP202;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388C8
+Path = /5805F477/585B2728
+Reference = TP203;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388CD
+Path = /5805F477/585B2C55
+Reference = TP204;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388D2
+Path = /5805F477/585B2FB4
+Reference = TP205;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388D7
+Path = /5805F477/585B2F1F
+Reference = TP206;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388DC
+Path = /5805F4C1/59B0B682
+Reference = TP301;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388E1
+Path = /5805F481/585B8948
+Reference = TP501;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388E6
+Path = /5805F4BA/585B7FE6
+Reference = TP701;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388EB
+Path = /5805F4BA/585B7582
+Reference = TP702;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388F0
+Path = /5805F4BA/585B75E1
+Reference = TP703;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388F5
+Path = /5805F4BA/585B7642
+Reference = TP704;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388FA
+Path = /5805F4BA/585B7879
+Reference = TP705;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388FF
+Path = /5805F4BA/585B78DE
+Reference = TP706;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38904
+Path = /5805F4BA/585B7945
+Reference = TP707;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38909
+Path = /5805F4BA/585B7C4E
+Reference = TP708;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3890E
+Path = /5805F4BA/585B7CB9
+Reference = TP709;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38913
+Path = /5805F47D/585C5E44
+Reference = TP801;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38928
+Path = /5805F477/580C66F7
+Reference = U201;
+ValeurCmp = MAX1555;
+IdModule  = TO_SOT_Packages_SMD:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B38952
+Path = /5805F4B1/59B74730
+Reference = U401;
+ValeurCmp = LD3985G18R_TSOT23;
+IdModule  = TO_SOT_Packages_SMD:TSOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B389B1
+Path = /5805F481/58065208
+Reference = U505;
+ValeurCmp = SIM_SLOT;
+IdModule  = NokiaRetroFit:SIM;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B389C2
+Path = /58075987
+Reference = X101;
+ValeurCmp = ANT_GPS;
+IdModule  = SMD_Packages:1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B389CB
+Path = /58075804
+Reference = X102;
+ValeurCmp = ANT_GSM;
+IdModule  = SMD_Packages:1Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BBC1DA
+Path = /5805F477/59B4D68C
+Reference = U202;
+ValeurCmp = TPS62742;
+IdModule  = NokiaRetroFit:TPS6274x;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BBC209
+Path = /5805F477/59460445
+Reference = U203;
+ValeurCmp = TPS61021A;
+IdModule  = Housings_SON:Texas_S-PVSON-N8_ThermalVias;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BBC26C
+Path = /5805F481/59464349
+Reference = U501;
+ValeurCmp = SN74AVC2T244;
+IdModule  = NokiaRetroFit:SN74AVC2T244;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BBC27A
+Path = /5805F481/594667F6
+Reference = U502;
+ValeurCmp = SN74AVC2T244;
+IdModule  = NokiaRetroFit:SN74AVC2T244;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BBC288
+Path = /5805F481/594A7415
+Reference = U503;
+ValeurCmp = SN74AVC2T244;
+IdModule  = NokiaRetroFit:SN74AVC2T244;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BBC296
+Path = /5805F481/594A9232
+Reference = U506;
+ValeurCmp = SN74AVC2T244;
+IdModule  = NokiaRetroFit:SN74AVC2T244;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BBC331
+Path = /5805F47D/59B08143
+Reference = U801;
+ValeurCmp = STM32F756VGTx;
+IdModule  = Housings_QFP:TQFP-100-1EP_14x14mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BBC34A
+Path = /59B2CA3C/5944C05B
+Reference = U1102;
+ValeurCmp = EMIF06-mSD02C3;
+IdModule  = NokiaRetroFit:EMIF06-mSD02C3;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BD02C6
+Path = /5805F4C1/58B7BD94
+Reference = D301;
+ValeurCmp = D_Schottky;
+IdModule  = Diodes_SMD:D_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BED2AD
+Path = /5805F4B1/588BCC3A
+Reference = U402;
+ValeurCmp = DRV8601;
+IdModule  = Housings_DFN_QFN:DFN-8-1EP_3x3mm_Pitch0.65mm;
+EndCmp
+
+EndListe
