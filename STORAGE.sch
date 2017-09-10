@@ -102,8 +102,6 @@ $EndComp
 Wire Wire Line
 	7250 4450 7250 4550
 Wire Wire Line
-	5400 4500 7550 4500
-Wire Wire Line
 	7550 4500 7550 4450
 Connection ~ 7250 4500
 Wire Wire Line
@@ -117,40 +115,17 @@ Wire Wire Line
 Wire Wire Line
 	6350 3850 6350 4500
 Wire Wire Line
-	4750 3950 4050 3950
+	5550 3950 6500 3950
 Wire Wire Line
-	4750 4050 4050 4050
+	5550 4050 6500 4050
 Wire Wire Line
-	4050 3350 4750 3350
+	5550 3350 6500 3350
 Wire Wire Line
-	4750 3450 4050 3450
+	5550 3450 6500 3450
 Wire Wire Line
-	4750 3550 4050 3550
+	5550 3550 6500 3550
 Wire Wire Line
-	4750 3750 4050 3750
-Wire Wire Line
-	6500 4050 6250 4050
-Wire Wire Line
-	6250 3950 6500 3950
-Wire Wire Line
-	6500 3750 6250 3750
-Wire Wire Line
-	6250 3550 6500 3550
-Wire Wire Line
-	6500 3450 6250 3450
-Wire Wire Line
-	6250 3350 6500 3350
-$Comp
-L EMIF06-mSD02C3 U1102
-U 1 1 5944C05B
-P 5500 3650
-F 0 "U1102" H 5950 4100 60  0000 C CNN
-F 1 "EMIF06-mSD02C3" H 5500 3650 60  0000 C CNN
-F 2 "NokiaRetroFit:EMIF06-mSD02C3" H 5950 4100 60  0001 C CNN
-F 3 "" H 5950 4100 60  0001 C CNN
-	1    5500 3650
-	1    0    0    -1  
-$EndComp
+	5550 3750 6500 3750
 $Comp
 L NVCC_3V3 #PWR0262
 U 1 1 5944C8E9
@@ -166,30 +141,18 @@ Wire Wire Line
 	6350 3650 6500 3650
 Wire Wire Line
 	6350 2850 6350 3650
-Wire Wire Line
-	6350 2950 5500 2950
-Wire Wire Line
-	5500 2950 5500 3050
-Connection ~ 6350 2950
-Wire Wire Line
-	5400 4350 5400 4500
-Connection ~ 6350 4500
-Wire Wire Line
-	5500 4350 5500 4500
-Connection ~ 5500 4500
-Wire Wire Line
-	5600 4350 5600 4500
-Connection ~ 5600 4500
-Text HLabel 4050 3350 0    60   BiDi ~ 0
+Text HLabel 5550 3350 0    60   BiDi ~ 0
 SD_D2
-Text HLabel 4050 3450 0    60   BiDi ~ 0
+Text HLabel 5550 3450 0    60   BiDi ~ 0
 SD_D3
-Text HLabel 4050 3950 0    60   BiDi ~ 0
+Text HLabel 5550 3950 0    60   BiDi ~ 0
 SD_D0
-Text HLabel 4050 4050 0    60   BiDi ~ 0
+Text HLabel 5550 4050 0    60   BiDi ~ 0
 SD_D1
-Text HLabel 4050 3750 0    60   Input ~ 0
+Text HLabel 5550 3750 0    60   Input ~ 0
 SD_CLK
-Text HLabel 4050 3550 0    60   Input ~ 0
+Text HLabel 5550 3550 0    60   Input ~ 0
 SD_CMD
+Wire Wire Line
+	6350 4500 7550 4500
 $EndSCHEMATC

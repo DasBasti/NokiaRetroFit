@@ -71,7 +71,7 @@ Sheet 8 10
 Title "Nokia 3210 Retrofit"
 Date "2017-09-07"
 Rev "3"
-Comp "www.kurzschluss-blog.de"
+Comp "OSHW"
 Comment1 "Retro fitting board for Nokia 3210 mobile phone"
 Comment2 "STM32 Version"
 Comment3 ""
@@ -273,17 +273,6 @@ F 3 "" H 1050 9850 50  0000 C CNN
 	1    1050 9850
 	1    0    0    -1  
 $EndComp
-$Comp
-L TP TP801
-U 1 1 585C5E44
-P 1050 9350
-F 0 "TP801" H 1050 9390 20  0000 C CNN
-F 1 "TP" H 1050 9300 60  0001 C CNN
-F 2 "NokiaRetroFit:TP" H 1050 9350 60  0001 C CNN
-F 3 "" H 1050 9350 60  0000 C CNN
-	1    1050 9350
-	-1   0    0    -1  
-$EndComp
 Wire Bus Line
 	14700 3200 15050 3200
 Wire Wire Line
@@ -353,17 +342,6 @@ Connection ~ 2250 9350
 Wire Wire Line
 	2000 9200 2000 9650
 Connection ~ 2000 9650
-$Comp
-L VLDO3_3V3 #PWR0143
-U 1 1 593F88AF
-P 1050 8800
-F 0 "#PWR0143" H -1400 1700 50  0001 C CNN
-F 1 "VLDO3_3V3" H 1067 8973 50  0000 C CNN
-F 2 "" H -1400 1850 50  0001 C CNN
-F 3 "" H -1400 1850 50  0001 C CNN
-	1    1050 8800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1750 8850 1750 8900
 Connection ~ 1050 8850
@@ -693,7 +671,7 @@ $EndComp
 Wire Wire Line
 	7750 8400 7750 8550
 Wire Wire Line
-	7750 8450 8250 8450
+	7600 8450 8250 8450
 Wire Wire Line
 	7850 8450 7850 8400
 Connection ~ 7750 8450
@@ -918,7 +896,7 @@ U 1 1 59B2538B
 P 1100 3950
 F 0 "J801" V 1054 3892 50  0000 R CNN
 F 1 "TEST_2P" V 1145 3892 50  0000 R CNN
-F 2 "Wire_Pads:SolderWirePad_2x_1mmDrill" H 1100 3950 50  0001 C CNN
+F 2 "NokiaRetroFit:SolderWirePad_2x_0,8" H 1100 3950 50  0001 C CNN
 F 3 "" H 1100 3950 50  0001 C CNN
 	1    1100 3950
 	0    -1   1    0   
@@ -1129,17 +1107,6 @@ Text HLabel 14150 6600 2    60   Output ~ 0
 RADIO_ON
 Wire Wire Line
 	13150 6600 14150 6600
-$Comp
-L NVCC_3V3 #PWR0808
-U 1 1 59B49FE4
-P 7750 2150
-F 0 "#PWR0808" H 7750 2000 50  0001 C CNN
-F 1 "NVCC_3V3" H 7767 2323 50  0000 C CNN
-F 2 "" H 7750 2150 50  0001 C CNN
-F 3 "" H 7750 2150 50  0001 C CNN
-	1    7750 2150
-	1    0    0    -1  
-$EndComp
 Text Label 2950 5800 2    60   ~ 0
 NVCC_3V3_EN
 Text HLabel 2250 5800 0    60   Output ~ 0
@@ -1218,4 +1185,28 @@ Text HLabel 2250 5700 0    60   BiDi ~ 0
 PE10
 Wire Wire Line
 	2250 5700 2950 5700
+$Comp
+L 3V3 #PWR017
+U 1 1 59B5443C
+P 7750 2150
+F 0 "#PWR017" H 7750 2000 50  0001 C CNN
+F 1 "3V3" H 7767 2323 50  0000 C CNN
+F 2 "" H 7750 2150 50  0001 C CNN
+F 3 "" H 7750 2150 50  0001 C CNN
+	1    7750 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 8450 7600 8400
+$Comp
+L NVCC_3V3 #PWR019
+U 1 1 59B56807
+P 1050 8800
+F 0 "#PWR019" H 1050 8650 50  0001 C CNN
+F 1 "NVCC_3V3" H 1067 8973 50  0000 C CNN
+F 2 "" H 1050 8800 50  0001 C CNN
+F 3 "" H 1050 8800 50  0001 C CNN
+	1    1050 8800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

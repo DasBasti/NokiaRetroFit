@@ -1,11 +1,219 @@
-Cmp-Mod V01 Created by PcbNew   date = Fr 08 Sep 2017 23:04:00 CEST
+Cmp-Mod V01 Created by PcbNew   date = So 10 Sep 2017 16:22:11 CEST
+
+BeginCmp
+TimeStamp = 59B30669
+Path = /5805F47D/59B2538B
+Reference = J801;
+ValeurCmp = TEST_2P;
+IdModule  = NokiaRetroFit:SolderWirePad_2x_0,8;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3F4F2
+Path = /580667EA
+Reference = P103;
+ValeurCmp = LIPO;
+IdModule  = NokiaRetroFit:SolderWirePad_2x_0,8;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3F4F8
+Path = /580C5E12
+Reference = P104;
+ValeurCmp = DC;
+IdModule  = NokiaRetroFit:SolderWirePad_2x_0,8;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3F4FE
+Path = /5807175C
+Reference = P105;
+ValeurCmp = EAR;
+IdModule  = NokiaRetroFit:SolderWirePad_2x_0,8;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3F504
+Path = /594B3CF4
+Reference = P106;
+ValeurCmp = SPEAKER;
+IdModule  = NokiaRetroFit:SolderWirePad_2x_0,8;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3FFBC
+Path = /58075987
+Reference = X101;
+ValeurCmp = ANT_GPS;
+IdModule  = NokiaRetroFit:SolderWirePad_2x_0,8;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3FFC2
+Path = /58075804
+Reference = X102;
+ValeurCmp = ANT_GSM;
+IdModule  = NokiaRetroFit:SolderWirePad_2x_0,8;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B309E5
+Path = /59B45449
+Reference = TP101;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388BE
+Path = /5805F477/585B0F26
+Reference = TP201;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388C3
+Path = /5805F477/585B1CC3
+Reference = TP202;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388C8
+Path = /5805F477/585B2728
+Reference = TP203;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388CD
+Path = /5805F477/585B2C55
+Reference = TP204;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388D2
+Path = /5805F477/585B2FB4
+Reference = TP205;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388D7
+Path = /5805F477/585B2F1F
+Reference = TP206;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388DC
+Path = /5805F4C1/59B0B682
+Reference = TP301;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B388E1
+Path = /5805F481/585B8948
+Reference = TP501;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BCD496
+Path = /59B5703E
+Reference = TP102;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BCD6BB
+Path = /59B5BADD
+Reference = TP103;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BCD6C0
+Path = /59B5B73F
+Reference = TP104;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BCD6C5
+Path = /59B5B3A3
+Reference = TP105;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BCD6CA
+Path = /59B5A312
+Reference = TP106;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BCD6CF
+Path = /59B59F7A
+Reference = TP107;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BCD6D4
+Path = /59B58A3B
+Reference = TP108;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BCD6D9
+Path = /59B5F8EC
+Reference = TP109;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BCD6DE
+Path = /59B5F8E6
+Reference = TP110;
+ValeurCmp = TP;
+IdModule  = NokiaRetroFit:TP;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B309D3
+Path = /5805F4BA/5807C586
+Reference = SW701;
+ValeurCmp = SW_PUSH;
+IdModule  = NokiaRetroFit:TS-015A;
+EndCmp
 
 BeginCmp
 TimeStamp = 59B38964
 Path = /5805F4B1/588B7558
 Reference = U404;
 ValeurCmp = MP34DT01TR;
-IdModule  = NokiaRetroFit:MP34DT01;
+IdModule  = NokiaRetroFit:MP34DT01_NoGroundRing;
 EndCmp
 
 BeginCmp
@@ -13,7 +221,31 @@ TimeStamp = 59B3896E
 Path = /5805F4B1/588B74FB
 Reference = U405;
 ValeurCmp = MP34DT01TR;
-IdModule  = NokiaRetroFit:MP34DT01;
+IdModule  = NokiaRetroFit:MP34DT01_NoGroundRing;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BBC1DA
+Path = /5805F477/59B4D68C
+Reference = U202;
+ValeurCmp = TPS62742;
+IdModule  = NokiaRetroFit:TPS6274x;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BBC209
+Path = /5805F477/59460445
+Reference = U203;
+ValeurCmp = TPS61021A;
+IdModule  = NokiaRetroFit:Texas_S-PVSON-N8_NoThermalVias;
+EndCmp
+
+BeginCmp
+TimeStamp = 59B3ADAF
+Path = /59452B57
+Reference = P107;
+ValeurCmp = HEADPHONE;
+IdModule  = NokiaRetroFit:PJ_320_D;
 EndCmp
 
 BeginCmp
@@ -38,14 +270,6 @@ Path = /5805F481/5805F4D3
 Reference = U504;
 ValeurCmp = A7;
 IdModule  = NokiaRetroFit:A7;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B309D3
-Path = /5805F4BA/5807C586
-Reference = SW701;
-ValeurCmp = SW_PUSH;
-IdModule  = NokiaRetroFit:TS-015A;
 EndCmp
 
 BeginCmp
@@ -115,7 +339,7 @@ EndCmp
 BeginCmp
 TimeStamp = 585D605A
 Path = /580EBF81
-Reference = P109;
+Reference = P108;
 ValeurCmp = RUMBLE;
 IdModule  = buttons:Rumble_Pads;
 EndCmp
@@ -289,27 +513,11 @@ IdModule  = Capacitors_SMD:C_0402_NoSilk;
 EndCmp
 
 BeginCmp
-TimeStamp = 59B30669
-Path = /5805F47D/59B2538B
-Reference = J801;
-ValeurCmp = TEST_2P;
-IdModule  = Wire_Pads:SolderWirePad_2x_1mmDrill;
-EndCmp
-
-BeginCmp
 TimeStamp = 59B30698
 Path = /59B2CA3C/5944B602
 Reference = J1101;
 ValeurCmp = MICRO_SD_HINGE;
 IdModule  = Connectors:microSD_Card_Receptacle_Wuerth_693072010801;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B309E5
-Path = /59B45449
-Reference = TP101;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
 EndCmp
 
 BeginCmp
@@ -905,22 +1113,6 @@ IdModule  = Resistors_SMD:R_0402_NoSilk;
 EndCmp
 
 BeginCmp
-TimeStamp = 59B3859E
-Path = /5805F477/59B4FB50
-Reference = R205;
-ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402_NoSilk;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B385AD
-Path = /5805F477/59B4FD15
-Reference = R206;
-ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402_NoSilk;
-EndCmp
-
-BeginCmp
 TimeStamp = 59B385BC
 Path = /5805F477/580C799E
 Reference = R207;
@@ -933,54 +1125,6 @@ TimeStamp = 59B385CB
 Path = /5805F477/580C79A4
 Reference = R208;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:R_0402_NoSilk;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B385DA
-Path = /5805F477/59B4FD6D
-Reference = R209;
-ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402_NoSilk;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B385E9
-Path = /5805F477/59B4FDC7
-Reference = R210;
-ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402_NoSilk;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B385F8
-Path = /5805F477/59B4F205
-Reference = R211;
-ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402_NoSilk;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B38607
-Path = /5805F477/59B4F1B3
-Reference = R212;
-ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402_NoSilk;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B38616
-Path = /5805F477/59B4F163
-Reference = R213;
-ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0402_NoSilk;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B38625
-Path = /5805F477/59B4ED2C
-Reference = R214;
-ValeurCmp = 0;
 IdModule  = Resistors_SMD:R_0402_NoSilk;
 EndCmp
 
@@ -1201,14 +1345,6 @@ IdModule  = Resistors_SMD:R_0402_NoSilk;
 EndCmp
 
 BeginCmp
-TimeStamp = 59B387C9
-Path = /5805F481/58066302
-Reference = R505;
-ValeurCmp = 100;
-IdModule  = Resistors_SMD:R_0402_NoSilk;
-EndCmp
-
-BeginCmp
 TimeStamp = 59B387D8
 Path = /580EAE94/584B3B04
 Reference = R601;
@@ -1329,150 +1465,6 @@ IdModule  = Resistors_SMD:R_0402_NoSilk;
 EndCmp
 
 BeginCmp
-TimeStamp = 59B388BE
-Path = /5805F477/585B0F26
-Reference = TP201;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B388C3
-Path = /5805F477/585B1CC3
-Reference = TP202;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B388C8
-Path = /5805F477/585B2728
-Reference = TP203;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B388CD
-Path = /5805F477/585B2C55
-Reference = TP204;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B388D2
-Path = /5805F477/585B2FB4
-Reference = TP205;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B388D7
-Path = /5805F477/585B2F1F
-Reference = TP206;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B388DC
-Path = /5805F4C1/59B0B682
-Reference = TP301;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B388E1
-Path = /5805F481/585B8948
-Reference = TP501;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B388E6
-Path = /5805F4BA/585B7FE6
-Reference = TP701;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B388EB
-Path = /5805F4BA/585B7582
-Reference = TP702;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B388F0
-Path = /5805F4BA/585B75E1
-Reference = TP703;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B388F5
-Path = /5805F4BA/585B7642
-Reference = TP704;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B388FA
-Path = /5805F4BA/585B7879
-Reference = TP705;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B388FF
-Path = /5805F4BA/585B78DE
-Reference = TP706;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B38904
-Path = /5805F4BA/585B7945
-Reference = TP707;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B38909
-Path = /5805F4BA/585B7C4E
-Reference = TP708;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B3890E
-Path = /5805F4BA/585B7CB9
-Reference = TP709;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B38913
-Path = /5805F47D/585C5E44
-Reference = TP801;
-ValeurCmp = TP;
-IdModule  = NokiaRetroFit:TP;
-EndCmp
-
-BeginCmp
 TimeStamp = 59B38928
 Path = /5805F477/580C66F7
 Reference = U201;
@@ -1497,83 +1489,11 @@ IdModule  = NokiaRetroFit:SIM;
 EndCmp
 
 BeginCmp
-TimeStamp = 59B389C2
-Path = /58075987
-Reference = X101;
-ValeurCmp = ANT_GPS;
-IdModule  = SMD_Packages:1Pin;
-EndCmp
-
-BeginCmp
-TimeStamp = 59B389CB
-Path = /58075804
-Reference = X102;
-ValeurCmp = ANT_GSM;
-IdModule  = SMD_Packages:1Pin;
-EndCmp
-
-BeginCmp
-TimeStamp = 59BBC1DA
-Path = /5805F477/59B4D68C
-Reference = U202;
-ValeurCmp = TPS62742;
-IdModule  = NokiaRetroFit:TPS6274x;
-EndCmp
-
-BeginCmp
-TimeStamp = 59BBC209
-Path = /5805F477/59460445
-Reference = U203;
-ValeurCmp = TPS61021A;
-IdModule  = Housings_SON:Texas_S-PVSON-N8_ThermalVias;
-EndCmp
-
-BeginCmp
-TimeStamp = 59BBC26C
-Path = /5805F481/59464349
-Reference = U501;
-ValeurCmp = SN74AVC2T244;
-IdModule  = NokiaRetroFit:SN74AVC2T244;
-EndCmp
-
-BeginCmp
-TimeStamp = 59BBC27A
-Path = /5805F481/594667F6
-Reference = U502;
-ValeurCmp = SN74AVC2T244;
-IdModule  = NokiaRetroFit:SN74AVC2T244;
-EndCmp
-
-BeginCmp
-TimeStamp = 59BBC288
-Path = /5805F481/594A7415
-Reference = U503;
-ValeurCmp = SN74AVC2T244;
-IdModule  = NokiaRetroFit:SN74AVC2T244;
-EndCmp
-
-BeginCmp
-TimeStamp = 59BBC296
-Path = /5805F481/594A9232
-Reference = U506;
-ValeurCmp = SN74AVC2T244;
-IdModule  = NokiaRetroFit:SN74AVC2T244;
-EndCmp
-
-BeginCmp
 TimeStamp = 59BBC331
 Path = /5805F47D/59B08143
 Reference = U801;
 ValeurCmp = STM32F756VGTx;
 IdModule  = Housings_QFP:TQFP-100-1EP_14x14mm_Pitch0.5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 59BBC34A
-Path = /59B2CA3C/5944C05B
-Reference = U1102;
-ValeurCmp = EMIF06-mSD02C3;
-IdModule  = NokiaRetroFit:EMIF06-mSD02C3;
 EndCmp
 
 BeginCmp
