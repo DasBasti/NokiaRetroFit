@@ -63,6 +63,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:tps62742
 LIBS:WM8994ECS
+LIBS:crystal
 LIBS:3210retro-cache
 EELAYER 26 0
 EELAYER END
