@@ -61,7 +61,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:stm32
+LIBS:tps62742
+LIBS:WM8994ECS
 LIBS:3210retro-cache
 EELAYER 26 0
 EELAYER END

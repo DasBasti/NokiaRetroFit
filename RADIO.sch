@@ -61,7 +61,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:stm32
+LIBS:tps62742
+LIBS:WM8994ECS
 LIBS:3210retro-cache
 EELAYER 26 0
 EELAYER END
@@ -208,7 +209,7 @@ GPS_GND
 Wire Wire Line
 	7900 2800 7800 2800
 Wire Wire Line
-	7800 2800 7800 3100
+	7800 3100 7800 2800
 Wire Wire Line
 	6700 2600 6700 3100
 Wire Wire Line
@@ -270,9 +271,9 @@ Connection ~ 7000 1800
 Wire Wire Line
 	7900 1900 7800 1900
 Wire Wire Line
-	7800 1900 7800 2200
+	7800 2200 7800 1900
 Wire Wire Line
-	7800 2200 6650 2200
+	6650 2200 7800 2200
 Wire Wire Line
 	7000 2100 7000 2200
 Connection ~ 7000 2200
@@ -452,12 +453,9 @@ Wire Wire Line
 Wire Wire Line
 	8650 3250 8650 3000
 Wire Wire Line
-	8650 3000 9350 3000
+	8650 3000 9250 3000
 Wire Wire Line
 	9250 3000 9250 3100
-Wire Wire Line
-	9350 3000 9350 3100
-Connection ~ 9250 3000
 Wire Wire Line
 	9250 3900 9250 3950
 Wire Wire Line
@@ -609,4 +607,5 @@ NoConn ~ 4950 2400
 NoConn ~ 4950 2500
 NoConn ~ 4950 2600
 NoConn ~ 4950 2700
+NoConn ~ 9350 3100
 $EndSCHEMATC
