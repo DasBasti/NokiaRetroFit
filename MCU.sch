@@ -86,7 +86,7 @@ U 1 1 584A70A2
 P 1050 4750
 F 0 "Y802" H 1050 4900 50  0000 C CNN
 F 1 "24MHz" H 1050 4600 50  0000 C CNN
-F 2 "Crystals:Crystal_SMD_SeikoEpson_MC146-4pin_6.7x1.5mm_HandSoldering" H 1050 4750 50  0001 C CNN
+F 2 "Crystals:Crystal_SMD_2016-4pin_2.0x1.6mm" H 1050 4750 50  0001 C CNN
 F 3 "" H 1050 4750 50  0000 C CNN
 	1    1050 4750
 	1    0    0    -1  
@@ -97,7 +97,7 @@ U 1 1 584A71C7
 P 15050 8500
 F 0 "Y801" H 15050 8650 50  0000 C CNN
 F 1 "32kHz" H 15050 8350 50  0000 C CNN
-F 2 "Crystals:Crystal_SMD_SeikoEpson_MC146-4pin_6.7x1.5mm_HandSoldering" H 15050 8500 50  0001 C CNN
+F 2 "Crystals:Crystal_SMD_2012-2pin_2.0x1.2mm" H 15050 8500 50  0001 C CNN
 F 3 "" H 15050 8500 50  0000 C CNN
 	1    15050 8500
 	-1   0    0    -1  
@@ -472,10 +472,6 @@ Text Label 2950 7700 2    60   ~ 0
 I2C4_SDA
 Text Label 13150 7200 0    60   ~ 0
 SDMMC1_D0
-Text Label 9150 8650 0    60   ~ 0
-I2C3_SDA
-Text Label 9250 8550 0    60   ~ 0
-I2C3_SCL
 Text Label 13150 4300 0    60   ~ 0
 SYS_JTMS-SWDIO
 Text Label 13150 4400 0    60   ~ 0
@@ -538,8 +534,6 @@ Text HLabel 14150 3200 2    60   Input ~ 0
 ADC2
 Text HLabel 14150 3300 2    60   Input ~ 0
 ADC3
-Text HLabel 10250 8550 2    60   Output ~ 0
-I2C3_SCL
 Text HLabel 14150 3900 2    60   Output ~ 0
 USART1_TX
 Text HLabel 14150 4000 2    60   Input ~ 0
@@ -576,8 +570,6 @@ Text HLabel 14150 7100 2    60   Input ~ 0
 USART6_RX
 Text HLabel 14150 7200 2    60   BiDi ~ 0
 SD_D0
-Text HLabel 10150 8650 2    60   BiDi ~ 0
-I2C3_SDA
 Text HLabel 14150 7600 2    60   Output ~ 0
 SD_CK
 Text HLabel 14150 7700 2    60   Output ~ 0
@@ -612,8 +604,6 @@ Wire Wire Line
 	13150 3200 14150 3200
 Wire Wire Line
 	13150 3300 14150 3300
-Wire Wire Line
-	9250 8550 10250 8550
 Wire Wire Line
 	13150 3900 14150 3900
 Wire Wire Line
@@ -650,8 +640,6 @@ Wire Wire Line
 	13150 7100 14150 7100
 Wire Wire Line
 	13150 7200 14150 7200
-Wire Wire Line
-	9150 8650 10150 8650
 Wire Wire Line
 	13150 7600 14150 7600
 Wire Wire Line
@@ -1200,14 +1188,38 @@ $EndComp
 Wire Wire Line
 	7600 8450 7600 8400
 $Comp
-L NVCC_3V3 #PWR019
-U 1 1 59B56807
+L 3V3 #PWR0808
+U 1 1 59BABD47
 P 1050 8800
-F 0 "#PWR019" H 1050 8650 50  0001 C CNN
-F 1 "NVCC_3V3" H 1067 8973 50  0000 C CNN
+F 0 "#PWR0808" H 1050 8650 50  0001 C CNN
+F 1 "3V3" H 1067 8973 50  0000 C CNN
 F 2 "" H 1050 8800 50  0001 C CNN
 F 3 "" H 1050 8800 50  0001 C CNN
 	1    1050 8800
 	1    0    0    -1  
 $EndComp
+Text Label 2950 7200 2    60   ~ 0
+PD8
+Text HLabel 2250 7200 0    60   BiDi ~ 0
+PD8
+Wire Wire Line
+	2250 7200 2950 7200
+Text Label 2950 7300 2    60   ~ 0
+PD9
+Text HLabel 2250 7300 0    60   BiDi ~ 0
+PD9
+Wire Wire Line
+	2250 7300 2950 7300
+Text Label 13150 4900 0    60   ~ 0
+PB2
+Text HLabel 14150 4900 2    60   BiDi ~ 0
+PB2
+Wire Wire Line
+	13150 4900 14150 4900
+Text Label 13150 3800 0    60   ~ 0
+PA8
+Text HLabel 14150 3800 2    60   BiDi ~ 0
+PA8
+Wire Wire Line
+	13150 3800 14150 3800
 $EndSCHEMATC

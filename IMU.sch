@@ -1,0 +1,290 @@
+EESchema Schematic File Version 2
+LIBS:a7
+LIBS:ft232rl
+LIBS:max1555
+LIBS:tps61045
+LIBS:tps62172
+LIBS:mma8451q
+LIBS:STM32F439NIH6
+LIBS:ESP8266
+LIBS:S29GL128S
+LIBS:IS42S16400J
+LIBS:micro_sd
+LIBS:h144tc215a
+LIBS:WL1807MODGIMOCT
+LIBS:tp
+LIBS:w3006
+LIBS:tps61046
+LIBS:mp34dt01tr
+LIBS:drv8601
+LIBS:lm4930
+LIBS:ts5a22366
+LIBS:tps61041dbv
+LIBS:IMX7D
+LIBS:ip4292cz10-tbr
+LIBS:mcimx7d7dvm10sc
+LIBS:pf3000
+LIBS:voltages
+LIBS:emif06-msd02c3
+LIBS:mtfc8gacaeam-1m_wt
+LIBS:sn74avc2t244
+LIBS:lsm9ds1
+LIBS:WM8960CGEFL
+LIBS:tps61021a
+LIBS:bq24400
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:tps62742
+LIBS:WM8994ECS
+LIBS:3210retro-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title "Nokia 3210 Retrofit"
+Date "2017-09-07"
+Rev "3"
+Comp "www.kurzschluss-blog.de"
+Comment1 "Retro fitting board for Nokia 3210 mobile phone"
+Comment2 "STM32 Version"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NVCC_3V3 #PWR0310
+U 1 1 59430BB5
+P 5800 2550
+AR Path="/5805F47D/594C5B6F/59430BB5" Ref="#PWR0310"  Part="1" 
+AR Path="/59B32194/59430BB5" Ref="#PWR0310"  Part="1" 
+F 0 "#PWR0310" H 5800 2400 50  0001 C CNN
+F 1 "NVCC_3V3" H 5800 2700 50  0000 C CNN
+F 2 "" H 5800 2550 50  0001 C CNN
+F 3 "" H 5800 2550 50  0001 C CNN
+	1    5800 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 2650
+Wire Wire Line
+	5700 2650 5800 2650
+Wire Wire Line
+	5700 2850 5700 2650
+Wire Wire Line
+	5800 2550 5800 2850
+$Comp
+L NVCC_3V3 #PWR0309
+U 1 1 59430571
+P 5400 2550
+AR Path="/5805F47D/594C5B6F/59430571" Ref="#PWR0309"  Part="1" 
+AR Path="/59B32194/59430571" Ref="#PWR0309"  Part="1" 
+F 0 "#PWR0309" H 5400 2400 50  0001 C CNN
+F 1 "NVCC_3V3" H 5400 2700 50  0000 C CNN
+F 2 "" H 5400 2550 50  0001 C CNN
+F 3 "" H 5400 2550 50  0001 C CNN
+	1    5400 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5050 4500 4900
+$Comp
+L GND #PWR0308
+U 1 1 594304CF
+P 4500 5050
+AR Path="/5805F47D/594C5B6F/594304CF" Ref="#PWR0308"  Part="1" 
+AR Path="/59B32194/594304CF" Ref="#PWR0308"  Part="1" 
+F 0 "#PWR0308" H 4500 4800 50  0001 C CNN
+F 1 "GND" H 4500 4900 50  0000 C CNN
+F 2 "" H 4500 5050 50  0000 C CNN
+F 3 "" H 4500 5050 50  0000 C CNN
+	1    4500 5050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4400 4800 4400
+Wire Wire Line
+	4500 4600 4500 4400
+$Comp
+L C C1308
+U 1 1 594304C7
+P 4500 4750
+AR Path="/5805F47D/594C5B6F/594304C7" Ref="C1308"  Part="1" 
+AR Path="/59B32194/594304C7" Ref="C1308"  Part="1" 
+F 0 "C1308" H 4525 4850 50  0000 L CNN
+F 1 "10n" H 4525 4650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 4538 4600 50  0001 C CNN
+F 3 "" H 4500 4750 50  0000 C CNN
+	1    4500 4750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 5050 6700 4900
+$Comp
+L GND #PWR0307
+U 1 1 594303C6
+P 6700 5050
+AR Path="/5805F47D/594C5B6F/594303C6" Ref="#PWR0307"  Part="1" 
+AR Path="/59B32194/594303C6" Ref="#PWR0307"  Part="1" 
+F 0 "#PWR0307" H 6700 4800 50  0001 C CNN
+F 1 "GND" H 6700 4900 50  0000 C CNN
+F 2 "" H 6700 5050 50  0000 C CNN
+F 3 "" H 6700 5050 50  0000 C CNN
+	1    6700 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4400 6400 4400
+Wire Wire Line
+	6700 4600 6700 4400
+$Comp
+L C C1309
+U 1 1 59430293
+P 6700 4750
+AR Path="/5805F47D/594C5B6F/59430293" Ref="C1309"  Part="1" 
+AR Path="/59B32194/59430293" Ref="C1309"  Part="1" 
+F 0 "C1309" H 6725 4850 50  0000 L CNN
+F 1 "100n" H 6725 4650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 6738 4600 50  0001 C CNN
+F 3 "" H 6700 4750 50  0000 C CNN
+	1    6700 4750
+	1    0    0    -1  
+$EndComp
+Text HLabel 4500 4000 0    60   Input ~ 0
+IMU_EN
+Wire Wire Line
+	4800 3900 4500 3900
+Wire Wire Line
+	4500 4000 4800 4000
+Text HLabel 4500 3900 0    60   Output ~ 0
+IMU_INT_M
+Wire Wire Line
+	4500 3800 4800 3800
+Text HLabel 4500 3800 0    60   Output ~ 0
+IMU_DRDY_M
+$Comp
+L GND #PWR0306
+U 1 1 59430085
+P 7050 4300
+AR Path="/5805F47D/594C5B6F/59430085" Ref="#PWR0306"  Part="1" 
+AR Path="/59B32194/59430085" Ref="#PWR0306"  Part="1" 
+F 0 "#PWR0306" H 7050 4050 50  0001 C CNN
+F 1 "GND" H 7050 4150 50  0000 C CNN
+F 2 "" H 7050 4300 50  0000 C CNN
+F 3 "" H 7050 4300 50  0000 C CNN
+	1    7050 4300
+	1    0    0    -1  
+$EndComp
+Text Notes 6400 4100 0    60   ~ 0
+LSB for I2C address
+Connection ~ 7050 4200
+Wire Wire Line
+	6400 4200 7050 4200
+Wire Wire Line
+	7050 4100 7050 4300
+Wire Wire Line
+	6400 4100 7050 4100
+Connection ~ 5950 4950
+$Comp
+L GND #PWR0305
+U 1 1 5942FEDE
+P 5950 5050
+AR Path="/5805F47D/594C5B6F/5942FEDE" Ref="#PWR0305"  Part="1" 
+AR Path="/59B32194/5942FEDE" Ref="#PWR0305"  Part="1" 
+F 0 "#PWR0305" H 5950 4800 50  0001 C CNN
+F 1 "GND" H 5950 4900 50  0000 C CNN
+F 2 "" H 5950 5050 50  0000 C CNN
+F 3 "" H 5950 5050 50  0000 C CNN
+	1    5950 5050
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 4950
+Wire Wire Line
+	5350 4850 5350 4950
+Connection ~ 5450 4950
+Wire Wire Line
+	5450 4850 5450 4950
+Connection ~ 5550 4950
+Wire Wire Line
+	5550 4850 5550 4950
+Connection ~ 5650 4950
+Wire Wire Line
+	5650 4850 5650 4950
+Connection ~ 5850 4950
+Wire Wire Line
+	5850 4850 5850 4950
+Wire Wire Line
+	5950 4850 5950 5050
+Wire Wire Line
+	5250 4950 5950 4950
+Wire Wire Line
+	5250 4850 5250 4950
+Wire Wire Line
+	6400 3800 7250 3800
+Wire Wire Line
+	7250 3900 6400 3900
+Text HLabel 7250 3900 2    60   Output ~ 0
+IMU_INT2
+Text HLabel 7250 3800 2    60   Output ~ 0
+IMU_INT1
+Wire Wire Line
+	7250 3600 6400 3600
+Wire Wire Line
+	6400 3500 7250 3500
+Connection ~ 5400 2650
+Wire Wire Line
+	5400 2550 5400 2850
+Connection ~ 4600 3500
+Wire Wire Line
+	4800 3500 4600 3500
+Wire Wire Line
+	4600 3600 4800 3600
+Wire Wire Line
+	4600 2650 4600 3600
+Wire Wire Line
+	4600 2650 5500 2650
+Wire Wire Line
+	5500 2650 5500 2850
+$Comp
+L LSM9DS1 U1301
+U 1 1 5942F947
+P 5600 4000
+AR Path="/5805F47D/594C5B6F/5942F947" Ref="U1301"  Part="1" 
+AR Path="/59B32194/5942F947" Ref="U1301"  Part="1" 
+F 0 "U1301" H 5600 5350 60  0000 C CNN
+F 1 "LSM9DS1" H 5600 5244 60  0000 C CNB
+F 2 "Housings_LGA:LGA-24L_3x3.5mm_Pitch0.43mm" H 5600 4000 60  0001 C CNN
+F 3 "" H 5600 4000 60  0001 C CNN
+	1    5600 4000
+	1    0    0    -1  
+$EndComp
+Text HLabel 7250 3500 2    60   Input ~ 0
+IMU_SCL
+Text HLabel 7250 3600 2    60   BiDi ~ 0
+IMU_SDA
+$EndSCHEMATC
