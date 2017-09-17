@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:3210retro-rescue
 LIBS:a7
 LIBS:ft232rl
 LIBS:max1555
@@ -61,9 +62,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:stm32
 LIBS:tps62742
 LIBS:WM8994ECS
-LIBS:crystal
+LIBS:tlv320adc3101
+LIBS:tlv320dac3100
 LIBS:3210retro-cache
 EELAYER 26 0
 EELAYER END
@@ -168,19 +171,6 @@ F 2 "" H 8300 1900 50  0000 C CNN
 F 3 "" H 8300 1900 50  0000 C CNN
 	1    8300 1900
 	0    1    1    0   
-$EndComp
-$Comp
-L TPS61041DBV U301
-U 1 1 58B7B6EA
-P 4050 1650
-AR Path="/58B7B6EA" Ref="U301"  Part="1" 
-AR Path="/5805F4C1/58B7B6EA" Ref="U301"  Part="1" 
-F 0 "U301" H 4050 2000 60  0000 C CNN
-F 1 "TPS61041DBV" H 4050 1300 60  0000 C CNN
-F 2 "Housings_DFN_QFN:DFN-6-1EP_2x2mm_Pitch0.65mm" H 4050 1450 60  0001 C CNN
-F 3 "" H 4050 1450 60  0001 C CNN
-	1    4050 1650
-	1    0    0    -1  
 $EndComp
 $Comp
 L L_Small L303
@@ -875,4 +865,17 @@ Wire Wire Line
 Connection ~ 6600 1450
 Connection ~ 6200 2300
 Connection ~ 6600 2300
+$Comp
+L TPS61041DBV U301
+U 1 1 58B7B6EA
+P 4050 1650
+AR Path="/58B7B6EA" Ref="U301"  Part="1" 
+AR Path="/5805F4C1/58B7B6EA" Ref="U301"  Part="1" 
+F 0 "U301" H 4050 2000 60  0000 C CNN
+F 1 "TPS61041DBV" H 4050 1300 60  0000 C CNN
+F 2 "Housings_DFN_QFN:DFN-6-1EP_2x2mm_Pitch0.65mm" H 4050 1450 60  0001 C CNN
+F 3 "" H 4050 1450 60  0001 C CNN
+	1    4050 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

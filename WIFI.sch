@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:3210retro-rescue
 LIBS:a7
 LIBS:ft232rl
 LIBS:max1555
@@ -61,9 +62,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:stm32
 LIBS:tps62742
 LIBS:WM8994ECS
-LIBS:crystal
+LIBS:tlv320adc3101
+LIBS:tlv320dac3100
 LIBS:3210retro-cache
 EELAYER 26 0
 EELAYER END

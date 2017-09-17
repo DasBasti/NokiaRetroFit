@@ -1,4 +1,4 @@
-update=Thu 14 Sep 2017 23:19:16 CEST
+update=Sa 16 Sep 2017 21:14:05 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -107,5 +107,6 @@ LibName65=valves
 LibName66=lib_sch/stm32
 LibName67=lib_sch/tps62742
 LibName68=lib_sch/WM8994ECS
-LibName69=lib_sch/crystal
+LibName69=lib_sch/tlv320adc3101
+LibName70=lib_sch/tlv320dac3100
 
