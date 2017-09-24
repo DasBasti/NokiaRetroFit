@@ -1203,9 +1203,9 @@ F 3 "" H 1150 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3050 7200 2    60   ~ 0
-PD8
-Text HLabel 2350 7200 0    60   BiDi ~ 0
-PD8
+4V_BST_EN
+Text HLabel 2350 7200 0    60   Output ~ 0
+4V_BST_EN
 Wire Wire Line
 	2350 7200 3050 7200
 Text Label 3050 7300 2    60   ~ 0
