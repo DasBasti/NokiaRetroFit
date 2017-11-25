@@ -1,68 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:a7
-LIBS:ft232rl
-LIBS:max1555
-LIBS:tps61045
-LIBS:tps62172
-LIBS:mma8451q
-LIBS:STM32F439NIH6
-LIBS:ESP8266
-LIBS:S29GL128S
-LIBS:IS42S16400J
-LIBS:micro_sd
-LIBS:h144tc215a
-LIBS:WL1807MODGIMOCT
-LIBS:tp
-LIBS:w3006
-LIBS:tps61046
-LIBS:mp34dt01tr
-LIBS:drv8601
-LIBS:lm4930
-LIBS:ts5a22366
-LIBS:tps61041dbv
-LIBS:IMX7D
-LIBS:ip4292cz10-tbr
-LIBS:mcimx7d7dvm10sc
-LIBS:pf3000
-LIBS:voltages
-LIBS:emif06-msd02c3
-LIBS:mtfc8gacaeam-1m_wt
-LIBS:sn74avc2t244
-LIBS:lsm9ds1
-LIBS:WM8960CGEFL
-LIBS:tps61021a
-LIBS:bq24400
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:3210retro-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
