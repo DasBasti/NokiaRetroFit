@@ -35,12 +35,8 @@ LIBS:tps61021a
 LIBS:bq24400
 LIBS:power
 LIBS:device
-LIBS:transistors
-LIBS:conn
 LIBS:linear
 LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
@@ -55,13 +51,11 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
-LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
 LIBS:stm32
 LIBS:tps62742
 LIBS:WM8994ECS
@@ -1797,10 +1791,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 1200 9300 1200
 Wire Wire Line
-	8550 1300 8550 1200
-Wire Wire Line
-	8200 1300 8550 1300
-Connection ~ 8550 1200
+	8200 1300 8600 1300
 Wire Wire Line
 	8300 1400 8300 1300
 Connection ~ 8300 1300
@@ -1825,7 +1816,7 @@ Connection ~ 7100 1200
 Wire Wire Line
 	7200 1900 7100 1900
 Wire Wire Line
-	7100 1900 7100 2200
+	7100 1400 7100 2200
 Wire Wire Line
 	7200 2000 7100 2000
 Connection ~ 7100 2000
@@ -1833,18 +1824,12 @@ Wire Wire Line
 	6350 1700 7200 1700
 Wire Wire Line
 	6350 1600 7200 1600
-Wire Wire Line
-	6350 1500 7200 1500
-Wire Wire Line
-	6350 1400 7200 1400
 Connection ~ 6350 1200
 Wire Wire Line
 	1700 5350 2500 5350
 Wire Wire Line
 	6350 1200 6350 1700
 Connection ~ 6350 1600
-Connection ~ 6350 1500
-Connection ~ 6350 1400
 $Comp
 L R R205
 U 1 1 59C7EB48
@@ -1894,4 +1879,41 @@ Wire Wire Line
 Wire Wire Line
 	3150 4250 2950 4250
 Connection ~ 2950 4250
+$Comp
+L C_Small C201
+U 1 1 5A1C91F3
+P 8700 1400
+F 0 "C201" H 8710 1470 50  0000 L CNN
+F 1 "10u" H 8710 1320 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8700 1400 50  0001 C CNN
+F 3 "" H 8700 1400 50  0000 C CNN
+	1    8700 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1300 8700 1200
+Connection ~ 8700 1200
+Wire Wire Line
+	8700 1200 8600 1300
+$Comp
+L GND #PWR023
+U 1 1 5A1C9712
+P 8700 1550
+F 0 "#PWR023" H 8700 1300 50  0001 C CNN
+F 1 "GND" H 8705 1377 50  0000 C CNN
+F 2 "" H 8700 1550 50  0001 C CNN
+F 3 "" H 8700 1550 50  0001 C CNN
+	1    8700 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1550 8700 1500
+Wire Wire Line
+	7200 1400 7100 1400
+Connection ~ 7100 1900
+Wire Wire Line
+	7200 1500 7100 1500
+Connection ~ 7100 1500
+Text Notes 7450 2250 0    60   ~ 0
+VSEL set to 3.0V
 $EndSCHEMATC
