@@ -1,4 +1,4 @@
-update=Fr 17 Nov 2017 15:49:55 CET
+update=Sa 16 Sep 2017 21:14:05 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,6 +6,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=std.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=std.kicad_wks
@@ -99,14 +109,4 @@ LibName67=lib_sch/tps62742
 LibName68=lib_sch/WM8994ECS
 LibName69=lib_sch/tlv320adc3101
 LibName70=lib_sch/tlv320dac3100
-[schematic_editor]
-version=1
-PageLayoutDescrFile=std.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
 
